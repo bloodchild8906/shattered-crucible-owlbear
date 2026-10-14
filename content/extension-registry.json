@@ -1,128 +1,139 @@
 {
   "contract": "sc.extension.registry",
   "schemaVersion": "1.0.0",
-  "revision": "2026-10-14.1",
+  "revision": "2026-10-14.2",
   "extensions": [
     {
       "id": "compendium",
-      "name": "Compendium",
+      "name": "Illustrated Compendium",
       "category": "Campaign",
-      "version": "0.6.0",
+      "version": "1.0.0",
       "manifestUrl": "./compendium/manifest.json",
       "previewUrl": "./compendium/",
       "minimumContractMajor": 1,
       "dependencies": [],
-      "description": "World lore and reference entries"
+      "description": "Browse 61 published character, class, creature, item, location and atlas illustrations with contract-defined reference entr",
+      "docsUrl": "./compendium/README.md"
     },
     {
       "id": "homebrew",
       "name": "Homebrew Studio",
       "category": "Campaign",
-      "version": "0.6.0",
+      "version": "1.0.0",
       "manifestUrl": "./homebrew/manifest.json",
       "previewUrl": "./homebrew/",
       "minimumContractMajor": 1,
       "dependencies": [],
-      "description": "Builders, registry packs and 5e.tools converter"
+      "description": "Create custom classes, subclasses, species, spells, weapons, gems, armor, monsters, NPCs and recipes with a five-step wizar",
+      "docsUrl": "./homebrew/README.md"
     },
     {
       "id": "characters",
       "name": "Character Sheets",
       "category": "Campaign",
-      "version": "0.6.0",
+      "version": "1.0.0",
       "manifestUrl": "./characters/manifest.json",
       "previewUrl": "./characters/",
       "minimumContractMajor": 1,
       "dependencies": [],
-      "description": "Character records and dice rolls"
+      "description": "Open a card-grid roster; edit character stats, feature lists, spell slots, inventory, contacts, notes and roll dice. Local ",
+      "docsUrl": "./characters/README.md"
     },
     {
       "id": "shops",
-      "name": "Scene Shops",
+      "name": "Scene Shop Manager",
       "category": "Scene",
-      "version": "0.6.0",
+      "version": "1.0.0",
       "manifestUrl": "./shops/manifest.json",
       "previewUrl": "./shops/",
       "minimumContractMajor": 1,
       "dependencies": [],
-      "description": "Merchant inventories and pricing"
+      "description": "Bind merchants to Owlbear scene ID or scene name from the packaged shop catalog, edit merchandise, decrement stock and keep",
+      "docsUrl": "./shops/README.md"
     },
     {
       "id": "atlas",
       "name": "World Atlas",
       "category": "Scene",
-      "version": "0.6.0",
+      "version": "1.0.0",
       "manifestUrl": "./atlas/manifest.json",
       "previewUrl": "./atlas/",
       "minimumContractMajor": 1,
       "dependencies": [],
-      "description": "World locations and pins"
+      "description": "Browse the illustrated Vhaldris atlas, reposition editable location pins, add lore and link scenes. Import the atlas throug",
+      "docsUrl": "./atlas/README.md"
     },
     {
       "id": "journal",
-      "name": "GM Journal",
+      "name": "GM Journal & Quests",
       "category": "Campaign",
-      "version": "0.6.0",
+      "version": "1.0.0",
       "manifestUrl": "./journal/manifest.json",
       "previewUrl": "./journal/",
       "minimumContractMajor": 1,
       "dependencies": [],
-      "description": "Session preparation and quests"
+      "description": "Track sessions, quests, faction storylines, dates, rewards and milestones, with statuses and GM notes kept locally.",
+      "docsUrl": "./journal/README.md"
     },
     {
       "id": "encounters",
       "name": "Encounter Director",
       "category": "Campaign",
-      "version": "0.6.0",
+      "version": "1.0.0",
       "manifestUrl": "./encounters/manifest.json",
       "previewUrl": "./encounters/",
       "minimumContractMajor": 1,
       "dependencies": [],
-      "description": "Initiative and encounter notes"
+      "description": "Create encounters, import character tokens from the current Owlbear scene, manage initiative, HP and rounds.",
+      "docsUrl": "./encounters/README.md"
     },
     {
       "id": "reputation",
       "name": "Reputation & Factions",
       "category": "Campaign",
-      "version": "0.7.0",
+      "version": "1.0.0",
       "manifestUrl": "./reputation/manifest.json",
       "previewUrl": "./reputation/",
       "minimumContractMajor": 1,
       "dependencies": [],
-      "description": "Faction standings and reputation changes"
+      "description": "Track faction standing from -100 to +100, record adjustments and reasons, and see relationship tiers.",
+      "docsUrl": "./reputation/README.md"
     },
     {
       "id": "handouts",
       "name": "Player Handouts",
       "category": "Scene",
-      "version": "0.7.0",
+      "version": "1.0.0",
       "manifestUrl": "./handouts/manifest.json",
       "previewUrl": "./handouts/",
       "minimumContractMajor": 1,
       "dependencies": [],
-      "description": "Player-facing shared handouts"
+      "description": "Create text and illustrated handouts and generate shareable links. Links include the content and must never be used for con",
+      "docsUrl": "./handouts/README.md"
     },
     {
       "id": "music",
-      "name": "Music Player",
+      "name": "Music & Ambience",
       "category": "Audio",
-      "version": "0.7.0",
+      "version": "1.0.0",
       "manifestUrl": "./music/manifest.json",
       "previewUrl": "./music/",
       "minimumContractMajor": 1,
       "dependencies": [],
-      "description": "Soundtrack playback and cues"
+      "description": "Build soundtrack cues from HTTPS audio URLs or locally stored audio files. Playback, looping and volume are local to this b",
+      "docsUrl": "./music/README.md"
     },
     {
       "id": "sfx",
       "name": "Sound Effects",
       "category": "Audio",
-      "version": "0.7.0",
+      "version": "1.0.0",
       "manifestUrl": "./sfx/manifest.json",
       "previewUrl": "./sfx/",
       "minimumContractMajor": 1,
       "dependencies": [],
-      "description": "Sound effect playback and cues"
+      "description": "Build an independent soundboard with HTTPS URLs or imported audio files, stored locally in IndexedDB.",
+      "docsUrl": "./sfx/README.md"
     }
   ]
 }

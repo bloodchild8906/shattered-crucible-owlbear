@@ -1,14 +1,15 @@
 {
-  "name": "Crucible GM Journal",
-  "version": "0.6.0",
+  "name": "Crucible GM Journal & Quests",
+  "version": "1.0.0",
   "manifest_version": 1,
-  "description": "Independent Shattered Crucible GM Journal",
+  "description": "Track sessions, quests, faction storylines, dates, rewards and milestones, with statuses and GM notes kept locally.",
   "author": "bloodchild8906",
+  "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
   "action": {
-    "title": "GM Journal",
+    "title": "GM Journal & Quests",
     "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/journal/icon.svg",
     "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/journal/",
-    "width": 900,
-    "height": 760
+    "width": 850,
+    "height": 720
   }
 }

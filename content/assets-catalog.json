@@ -1,0 +1,434 @@
+{
+  "contract": "sc.assets.catalog",
+  "schemaVersion": "1.0.0",
+  "revision": "2026-10-14",
+  "assets": [
+    {
+      "id": "vhaldris_world_map",
+      "name": "Vhaldris World Map",
+      "category": "atlas",
+      "path": "../campaign/reference-assets/atlas/vhaldris_world_map.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/atlas/vhaldris_world_map.png"
+    },
+    {
+      "id": "barbarian",
+      "name": "Barbarian",
+      "category": "classes",
+      "path": "../campaign/reference-assets/classes/barbarian.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/classes/barbarian.png"
+    },
+    {
+      "id": "bard",
+      "name": "Bard",
+      "category": "classes",
+      "path": "../campaign/reference-assets/classes/bard.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/classes/bard.png"
+    },
+    {
+      "id": "cleric",
+      "name": "Cleric",
+      "category": "classes",
+      "path": "../campaign/reference-assets/classes/cleric.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/classes/cleric.png"
+    },
+    {
+      "id": "druid",
+      "name": "Druid",
+      "category": "classes",
+      "path": "../campaign/reference-assets/classes/druid.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/classes/druid.png"
+    },
+    {
+      "id": "fighter",
+      "name": "Fighter",
+      "category": "classes",
+      "path": "../campaign/reference-assets/classes/fighter.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/classes/fighter.png"
+    },
+    {
+      "id": "hearthwarden",
+      "name": "Hearthwarden",
+      "category": "classes",
+      "path": "../campaign/reference-assets/classes/hearthwarden.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/classes/hearthwarden.png"
+    },
+    {
+      "id": "paladin",
+      "name": "Paladin",
+      "category": "classes",
+      "path": "../campaign/reference-assets/classes/paladin.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/classes/paladin.png"
+    },
+    {
+      "id": "ranger",
+      "name": "Ranger",
+      "category": "classes",
+      "path": "../campaign/reference-assets/classes/ranger.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/classes/ranger.png"
+    },
+    {
+      "id": "rogue",
+      "name": "Rogue",
+      "category": "classes",
+      "path": "../campaign/reference-assets/classes/rogue.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/classes/rogue.png"
+    },
+    {
+      "id": "runewright",
+      "name": "Runewright",
+      "category": "classes",
+      "path": "../campaign/reference-assets/classes/runewright.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/classes/runewright.png"
+    },
+    {
+      "id": "sorcerer",
+      "name": "Sorcerer",
+      "category": "classes",
+      "path": "../campaign/reference-assets/classes/sorcerer.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/classes/sorcerer.png"
+    },
+    {
+      "id": "warlock",
+      "name": "Warlock",
+      "category": "classes",
+      "path": "../campaign/reference-assets/classes/warlock.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/classes/warlock.png"
+    },
+    {
+      "id": "wizard",
+      "name": "Wizard",
+      "category": "classes",
+      "path": "../campaign/reference-assets/classes/wizard.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/classes/wizard.png"
+    },
+    {
+      "id": "celestial_stag",
+      "name": "Celestial Stag",
+      "category": "creatures",
+      "path": "../campaign/reference-assets/creatures/celestial_stag.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/creatures/celestial_stag.png"
+    },
+    {
+      "id": "cinder_worm",
+      "name": "Cinder Worm",
+      "category": "creatures",
+      "path": "../campaign/reference-assets/creatures/cinder_worm.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/creatures/cinder_worm.png"
+    },
+    {
+      "id": "ember_gale_griffin",
+      "name": "Ember Gale Griffin",
+      "category": "creatures",
+      "path": "../campaign/reference-assets/creatures/ember_gale_griffin.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/creatures/ember_gale_griffin.png"
+    },
+    {
+      "id": "frosttide_troll",
+      "name": "Frosttide Troll",
+      "category": "creatures",
+      "path": "../campaign/reference-assets/creatures/frosttide_troll.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/creatures/frosttide_troll.png"
+    },
+    {
+      "id": "mirelurker",
+      "name": "Mirelurker",
+      "category": "creatures",
+      "path": "../campaign/reference-assets/creatures/mirelurker.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/creatures/mirelurker.png"
+    },
+    {
+      "id": "riftspawn_horror",
+      "name": "Riftspawn Horror",
+      "category": "creatures",
+      "path": "../campaign/reference-assets/creatures/riftspawn_horror.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/creatures/riftspawn_horror.png"
+    },
+    {
+      "id": "shadow_stalker",
+      "name": "Shadow Stalker",
+      "category": "creatures",
+      "path": "../campaign/reference-assets/creatures/shadow_stalker.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/creatures/shadow_stalker.png"
+    },
+    {
+      "id": "skybreak_drake",
+      "name": "Skybreak Drake",
+      "category": "creatures",
+      "path": "../campaign/reference-assets/creatures/skybreak_drake.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/creatures/skybreak_drake.png"
+    },
+    {
+      "id": "stoneheart_golem",
+      "name": "Stoneheart Golem",
+      "category": "creatures",
+      "path": "../campaign/reference-assets/creatures/stoneheart_golem.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/creatures/stoneheart_golem.png"
+    },
+    {
+      "id": "stormwraith",
+      "name": "Stormwraith",
+      "category": "creatures",
+      "path": "../campaign/reference-assets/creatures/stormwraith.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/creatures/stormwraith.png"
+    },
+    {
+      "id": "sunscar_sandwalker",
+      "name": "Sunscar Sandwalker",
+      "category": "creatures",
+      "path": "../campaign/reference-assets/creatures/sunscar_sandwalker.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/creatures/sunscar_sandwalker.png"
+    },
+    {
+      "id": "voidtouched_owlbear",
+      "name": "Voidtouched Owlbear",
+      "category": "creatures",
+      "path": "../campaign/reference-assets/creatures/voidtouched_owlbear.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/creatures/voidtouched_owlbear.png"
+    },
+    {
+      "id": "aether_compass",
+      "name": "Aether Compass",
+      "category": "items",
+      "path": "../campaign/reference-assets/items/aether_compass.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/items/aether_compass.png"
+    },
+    {
+      "id": "dragonblood_vial",
+      "name": "Dragonblood Vial",
+      "category": "items",
+      "path": "../campaign/reference-assets/items/dragonblood_vial.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/items/dragonblood_vial.png"
+    },
+    {
+      "id": "emberglass_ring",
+      "name": "Emberglass Ring",
+      "category": "items",
+      "path": "../campaign/reference-assets/items/emberglass_ring.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/items/emberglass_ring.png"
+    },
+    {
+      "id": "frostveil_cloak",
+      "name": "Frostveil Cloak",
+      "category": "items",
+      "path": "../campaign/reference-assets/items/frostveil_cloak.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/items/frostveil_cloak.png"
+    },
+    {
+      "id": "hearthkeeper_pot",
+      "name": "Hearthkeeper Pot",
+      "category": "items",
+      "path": "../campaign/reference-assets/items/hearthkeeper_pot.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/items/hearthkeeper_pot.png"
+    },
+    {
+      "id": "moonfen_lantern",
+      "name": "Moonfen Lantern",
+      "category": "items",
+      "path": "../campaign/reference-assets/items/moonfen_lantern.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/items/moonfen_lantern.png"
+    },
+    {
+      "id": "runebound_shield",
+      "name": "Runebound Shield",
+      "category": "items",
+      "path": "../campaign/reference-assets/items/runebound_shield.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/items/runebound_shield.png"
+    },
+    {
+      "id": "skyforged_blade",
+      "name": "Skyforged Blade",
+      "category": "items",
+      "path": "../campaign/reference-assets/items/skyforged_blade.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/items/skyforged_blade.png"
+    },
+    {
+      "id": "starforged_armor",
+      "name": "Starforged Armor",
+      "category": "items",
+      "path": "../campaign/reference-assets/items/starforged_armor.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/items/starforged_armor.png"
+    },
+    {
+      "id": "stoneheart_hammer",
+      "name": "Stoneheart Hammer",
+      "category": "items",
+      "path": "../campaign/reference-assets/items/stoneheart_hammer.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/items/stoneheart_hammer.png"
+    },
+    {
+      "id": "sunscar_bow",
+      "name": "Sunscar Bow",
+      "category": "items",
+      "path": "../campaign/reference-assets/items/sunscar_bow.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/items/sunscar_bow.png"
+    },
+    {
+      "id": "voidshard_tome",
+      "name": "Voidshard Tome",
+      "category": "items",
+      "path": "../campaign/reference-assets/items/voidshard_tome.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/items/voidshard_tome.png"
+    },
+    {
+      "id": "aasimar",
+      "name": "Aasimar",
+      "category": "races",
+      "path": "../campaign/reference-assets/races/aasimar.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/races/aasimar.png"
+    },
+    {
+      "id": "dragonborn",
+      "name": "Dragonborn",
+      "category": "races",
+      "path": "../campaign/reference-assets/races/dragonborn.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/races/dragonborn.png"
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf",
+      "category": "races",
+      "path": "../campaign/reference-assets/races/dwarf.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/races/dwarf.png"
+    },
+    {
+      "id": "elf",
+      "name": "Elf",
+      "category": "races",
+      "path": "../campaign/reference-assets/races/elf.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/races/elf.png"
+    },
+    {
+      "id": "genasi",
+      "name": "Genasi",
+      "category": "races",
+      "path": "../campaign/reference-assets/races/genasi.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/races/genasi.png"
+    },
+    {
+      "id": "gnome",
+      "name": "Gnome",
+      "category": "races",
+      "path": "../campaign/reference-assets/races/gnome.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/races/gnome.png"
+    },
+    {
+      "id": "goliath",
+      "name": "Goliath",
+      "category": "races",
+      "path": "../campaign/reference-assets/races/goliath.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/races/goliath.png"
+    },
+    {
+      "id": "halfling",
+      "name": "Halfling",
+      "category": "races",
+      "path": "../campaign/reference-assets/races/halfling.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/races/halfling.png"
+    },
+    {
+      "id": "human",
+      "name": "Human",
+      "category": "races",
+      "path": "../campaign/reference-assets/races/human.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/races/human.png"
+    },
+    {
+      "id": "orc",
+      "name": "Orc",
+      "category": "races",
+      "path": "../campaign/reference-assets/races/orc.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/races/orc.png"
+    },
+    {
+      "id": "shifter",
+      "name": "Shifter",
+      "category": "races",
+      "path": "../campaign/reference-assets/races/shifter.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/races/shifter.png"
+    },
+    {
+      "id": "tiefling",
+      "name": "Tiefling",
+      "category": "races",
+      "path": "../campaign/reference-assets/races/tiefling.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/races/tiefling.png"
+    },
+    {
+      "id": "ashenspire",
+      "name": "Ashenspire",
+      "category": "settlements",
+      "path": "../campaign/reference-assets/settlements/ashenspire.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/settlements/ashenspire.png"
+    },
+    {
+      "id": "duskmire",
+      "name": "Duskmire",
+      "category": "settlements",
+      "path": "../campaign/reference-assets/settlements/duskmire.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/settlements/duskmire.png"
+    },
+    {
+      "id": "emberreach",
+      "name": "Emberreach",
+      "category": "settlements",
+      "path": "../campaign/reference-assets/settlements/emberreach.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/settlements/emberreach.png"
+    },
+    {
+      "id": "frostwarden",
+      "name": "Frostwarden",
+      "category": "settlements",
+      "path": "../campaign/reference-assets/settlements/frostwarden.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/settlements/frostwarden.png"
+    },
+    {
+      "id": "gloomfen",
+      "name": "Gloomfen",
+      "category": "settlements",
+      "path": "../campaign/reference-assets/settlements/gloomfen.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/settlements/gloomfen.png"
+    },
+    {
+      "id": "ironhollow",
+      "name": "Ironhollow",
+      "category": "settlements",
+      "path": "../campaign/reference-assets/settlements/ironhollow.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/settlements/ironhollow.png"
+    },
+    {
+      "id": "moonfen",
+      "name": "Moonfen",
+      "category": "settlements",
+      "path": "../campaign/reference-assets/settlements/moonfen.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/settlements/moonfen.png"
+    },
+    {
+      "id": "shattered_isles",
+      "name": "Shattered Isles",
+      "category": "settlements",
+      "path": "../campaign/reference-assets/settlements/shattered_isles.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/settlements/shattered_isles.png"
+    },
+    {
+      "id": "stormwatch",
+      "name": "Stormwatch",
+      "category": "settlements",
+      "path": "../campaign/reference-assets/settlements/stormwatch.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/settlements/stormwatch.png"
+    },
+    {
+      "id": "sunscar",
+      "name": "Sunscar",
+      "category": "settlements",
+      "path": "../campaign/reference-assets/settlements/sunscar.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/settlements/sunscar.png"
+    },
+    {
+      "id": "thornwild",
+      "name": "Thornwild",
+      "category": "settlements",
+      "path": "../campaign/reference-assets/settlements/thornwild.png",
+      "image": "https://bloodchild8906.github.io/shattered-crucible-owlbear/campaign/reference-assets/settlements/thornwild.png"
+    }
+  ]
+}

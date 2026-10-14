@@ -1,15 +1,15 @@
 {
   "name": "Crucible Sound Effects",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "manifest_version": 1,
-  "description": "Standalone Shattered Crucible Sound Effects extension",
+  "description": "Build an independent soundboard with HTTPS URLs or imported audio files, stored locally in IndexedDB.",
   "author": "bloodchild8906",
   "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
   "action": {
     "title": "Sound Effects",
     "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/sfx/icon.svg",
     "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/sfx/",
-    "width": 900,
-    "height": 760
+    "width": 850,
+    "height": 720
   }
 }

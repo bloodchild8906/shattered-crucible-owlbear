@@ -1,15 +1,21 @@
 {
   "name": "Crucible Player Handouts",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "manifest_version": 1,
-  "description": "Standalone Shattered Crucible Player Handouts extension",
+  "description": "Create text and illustrated handouts and generate shareable links. Links include the content and must never be used for con",
   "author": "bloodchild8906",
   "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
   "action": {
     "title": "Player Handouts",
     "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/handouts/icon.svg",
     "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/handouts/",
-    "width": 900,
-    "height": 760
-  }
+    "width": 850,
+    "height": 720
+  },
+  "permissions": [
+    {
+      "name": "clipboard-write",
+      "reason": "Copy shareable handout links."
+    }
+  ]
 }

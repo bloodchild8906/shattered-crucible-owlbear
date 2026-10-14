@@ -1,14 +1,15 @@
 {
   "name": "Crucible Encounter Director",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "manifest_version": 1,
-  "description": "Independent Shattered Crucible Encounter Director",
+  "description": "Create encounters, import character tokens from the current Owlbear scene, manage initiative, HP and rounds.",
   "author": "bloodchild8906",
+  "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
   "action": {
     "title": "Encounter Director",
     "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/encounters/icon.svg",
     "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/encounters/",
-    "width": 900,
-    "height": 760
+    "width": 850,
+    "height": 720
   }
 }

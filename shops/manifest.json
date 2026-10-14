@@ -1,15 +1,15 @@
 {
-  "name": "Crucible Scene Shops",
-  "version": "0.6.0",
+  "name": "Crucible Scene Shop Manager",
+  "version": "1.0.0",
   "manifest_version": 1,
-  "description": "Independent Shattered Crucible Scene Shops toolkit",
+  "description": "Bind merchants to Owlbear scene ID or scene name from the packaged shop catalog, edit merchandise, decrement stock and keep",
   "author": "bloodchild8906",
   "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
   "action": {
-    "title": "Scene Shops",
+    "title": "Scene Shop Manager",
     "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/shops/icon.svg",
     "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/shops/",
-    "width": 900,
-    "height": 760
+    "width": 850,
+    "height": 720
   }
 }

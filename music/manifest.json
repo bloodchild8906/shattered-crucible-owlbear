@@ -1,15 +1,15 @@
 {
-  "name": "Crucible Music Player",
-  "version": "0.7.0",
+  "name": "Crucible Music & Ambience",
+  "version": "1.0.0",
   "manifest_version": 1,
-  "description": "Standalone Shattered Crucible Music Player extension",
+  "description": "Build soundtrack cues from HTTPS audio URLs or locally stored audio files. Playback, looping and volume are local to this b",
   "author": "bloodchild8906",
   "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
   "action": {
-    "title": "Music Player",
+    "title": "Music & Ambience",
     "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/music/icon.svg",
     "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/music/",
-    "width": 900,
-    "height": 760
+    "width": 850,
+    "height": 720
   }
 }

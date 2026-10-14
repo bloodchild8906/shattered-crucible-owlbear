@@ -1,15 +1,15 @@
 {
   "name": "Crucible World Atlas",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "manifest_version": 1,
-  "description": "Independent Shattered Crucible World Atlas toolkit",
+  "description": "Browse the illustrated Vhaldris atlas, reposition editable location pins, add lore and link scenes. Import the atlas throug",
   "author": "bloodchild8906",
   "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
   "action": {
     "title": "World Atlas",
     "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/atlas/icon.svg",
     "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/atlas/",
-    "width": 900,
-    "height": 760
+    "width": 850,
+    "height": 720
   }
 }

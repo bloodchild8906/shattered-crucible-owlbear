@@ -1,15 +1,15 @@
 {
   "name": "Crucible Character Sheets",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "manifest_version": 1,
-  "description": "Independent Shattered Crucible Character Sheets toolkit",
+  "description": "Open a card-grid roster; edit character stats, feature lists, spell slots, inventory, contacts, notes and roll dice. Local ",
   "author": "bloodchild8906",
   "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
   "action": {
     "title": "Character Sheets",
     "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/characters/icon.svg",
     "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/characters/",
-    "width": 900,
-    "height": 760
+    "width": 850,
+    "height": 720
   }
 }

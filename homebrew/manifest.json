@@ -1,15 +1,15 @@
 {
   "name": "Crucible Homebrew Studio",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "manifest_version": 1,
-  "description": "Independent Shattered Crucible Homebrew Studio toolkit",
+  "description": "Create custom classes, subclasses, species, spells, weapons, gems, armor, monsters, NPCs and recipes with a five-step wizar",
   "author": "bloodchild8906",
   "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
   "action": {
     "title": "Homebrew Studio",
     "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/homebrew/icon.svg",
     "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/homebrew/",
-    "width": 900,
-    "height": 760
+    "width": 850,
+    "height": 720
   }
 }

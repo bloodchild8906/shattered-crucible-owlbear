@@ -1,15 +1,15 @@
 {
-  "name": "Crucible Compendium",
-  "version": "0.6.0",
+  "name": "Crucible Illustrated Compendium",
+  "version": "1.0.0",
   "manifest_version": 1,
-  "description": "Independent Shattered Crucible Compendium toolkit",
+  "description": "Browse 61 published character, class, creature, item, location and atlas illustrations with contract-defined reference entr",
   "author": "bloodchild8906",
   "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
   "action": {
-    "title": "Compendium",
+    "title": "Illustrated Compendium",
     "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/compendium/icon.svg",
     "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/compendium/",
-    "width": 900,
-    "height": 760
+    "width": 850,
+    "height": 720
   }
 }

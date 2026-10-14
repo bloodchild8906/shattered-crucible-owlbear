@@ -1,15 +1,15 @@
 {
   "name": "Crucible Reputation & Factions",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "manifest_version": 1,
-  "description": "Standalone Shattered Crucible Reputation & Factions extension",
+  "description": "Track faction standing from -100 to +100, record adjustments and reasons, and see relationship tiers.",
   "author": "bloodchild8906",
   "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
   "action": {
     "title": "Reputation & Factions",
     "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/reputation/icon.svg",
     "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/reputation/",
-    "width": 900,
-    "height": 760
+    "width": 850,
+    "height": 720
   }
 }

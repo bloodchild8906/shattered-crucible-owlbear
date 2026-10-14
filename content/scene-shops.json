@@ -1,0 +1,80 @@
+{
+  "contract": "sc.homebrew.entries",
+  "schemaVersion": "1.0.0",
+  "packId": "shattered-crucible-scenes",
+  "category": "shops",
+  "entries": [
+    {
+      "id": "ironhollow-forge-shop",
+      "name": "Ironhollow Master Forge",
+      "type": "shop",
+      "sceneName": "Ironhollow",
+      "sceneId": "",
+      "town": "Ironhollow",
+      "keeper": "Hadrik Steelhand",
+      "currency": "gp",
+      "inventory": [
+        {
+          "name": "Iron Ingot",
+          "price": 10,
+          "quantity": 22
+        },
+        {
+          "name": "Steel Longsword",
+          "price": 25,
+          "quantity": 5
+        }
+      ],
+      "ledger": [],
+      "notes": "A forge run by the dwarven smith guild."
+    },
+    {
+      "id": "ashenspire-arcana",
+      "name": "Ashenspire Aether Supply",
+      "type": "shop",
+      "sceneName": "Ashenspire",
+      "sceneId": "",
+      "town": "Ashenspire",
+      "keeper": "Professor Elwi",
+      "currency": "gp",
+      "inventory": [
+        {
+          "name": "Embershard",
+          "price": 250,
+          "quantity": 3
+        },
+        {
+          "name": "Aether Compass",
+          "price": 500,
+          "quantity": 1
+        }
+      ],
+      "ledger": [],
+      "notes": "Regulated magical experiments and instruments."
+    },
+    {
+      "id": "sunscar-caravan",
+      "name": "Sunscar Caravan Exchange",
+      "type": "shop",
+      "sceneName": "Sunscar",
+      "sceneId": "",
+      "town": "Sunscar",
+      "keeper": "Nahla",
+      "currency": "gp",
+      "inventory": [
+        {
+          "name": "Waterskin",
+          "price": 2,
+          "quantity": 40
+        },
+        {
+          "name": "Sunscar Bow",
+          "price": 350,
+          "quantity": 1
+        }
+      ],
+      "ledger": [],
+      "notes": "Provisioning for the desert routes."
+    }
+  ]
+}
