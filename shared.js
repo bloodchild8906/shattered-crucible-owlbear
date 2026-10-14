@@ -9,11 +9,21 @@ const id=()=>crypto.randomUUID?.()||String(Date.now()+Math.random());
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const app=location.pathname.split("/").filter(Boolean).at(-1)||"compendium",key="sc-suite/"+app,contentUrl="../content/catalog.json";
 let records=JSON.parse(localStorage.getItem(key)||"null")||structuredClone(seed[app]),OBR=null,isGM=true,isRoom=false,active=null,draft={},step=0;
-try{const {default:x}=await import("https://esm.sh/@owlbear-rodeo/sdk@2.3.0");OBR=x;await new Promise(r=>OBR.onReady(r));isRoom=true;isGM=(await OBR.player.getRole())==="GM"}catch(e){console.info("Standalone preview",e)}
+// Render the local UI immediately; SDK initialization must never block startup.
+async function connectOwlbear(){
+  try {
+    const {default:sdk}=await import("https://esm.sh/@owlbear-rodeo/sdk@2.3.0");
+    OBR=sdk;
+    if(typeof sdk.isAvailable==="function" && !sdk.isAvailable())return;
+    await new Promise(resolve=>{let done=false;const complete=()=>{if(!done){done=true;resolve()}};sdk.onReady(complete);setTimeout(complete,3500)});
+    try {isGM=(await sdk.player.getRole())==="GM";isRoom=true;}catch(error){console.info("SDK not ready",error)}
+    draw();
+  } catch(error){console.info("Standalone preview",error)}
+}
 const root=document.getElementById("app");document.title="Crucible "+names[app];
 async function save(){localStorage.setItem(key,JSON.stringify(records));draw()}
 function field(k,label,type="text"){return '<label>'+label+(type==="textarea"?'<textarea data-field="'+k+'">'+esc(draft[k]||"")+'</textarea>':'<input data-field="'+k+'" value="'+esc(draft[k]||"")+'">')+'</label>'}
-function controls(){return '<div class="row"><button id="new">+ New '+(app==="atlas"?"pin":"entry")+'</button><button id="export">Export Contract v1</button><label class="import">Import Contract v1 <input id="import" type="file" accept=".json"></label><label class="import">Interpret 5e.tools JSON<input id="import5e" type="file" accept=".json"></label></div>'}
+function controls(){return '<div class="row"><button id="new">+ New '+(app==="atlas"?"pin":"entry")+'</button><button id="export">Export Contract v1</button><label class="import">Import Contract v1 <input id="import" type="file" accept=".json"></label>'+(app==="homebrew"?'<label class="import">Interpret 5e.tools JSON<input id="import5e" type="file" accept=".json"></label>':"")+'</div>'}
 function card(o,i){const name=o.name||o.title||"Untitled";return '<article><b>'+esc(name)+'</b><small>'+esc(o.kind||o.type||o.location||o.status||"")+'</small><p>'+esc(o.description||o.notes||o.scene||"")+'</p><button data-edit="'+i+'">Edit</button> <button data-del="'+i+'">Delete</button></article>'}
 function listing(){return '<section><input id="filter" placeholder="Search '+names[app]+'"></section><section id="list">'+records.map(card).join("")+'</section>'}
 function atlas(){return '<section><p>Drag a pin to reposition it; scene links open separately and do not switch the Owlbear room scene.</p><div id="map">'+records.map((p,i)=>'<button class="pin" data-pin="'+i+'" style="left:'+p.x+'%;top:'+p.y+'%">'+esc(p.name)+'</button>').join("")+'</div></section>'+listing()}
@@ -46,7 +56,7 @@ draw();
 const catalogURL=new URL("./content/catalog.json",import.meta.url).href;
 const catalogKey="sc-repo-catalog-v1";
 async function loadCatalog(){try{const response=await fetch(catalogURL,{cache:"no-cache"});if(!response.ok)throw Error("HTTP "+response.status);const c=await response.json();if(!Array.isArray(c.entries)||!Array.isArray(c.assets))throw Error("Invalid catalog");localStorage.setItem(catalogKey,JSON.stringify(c));return c}catch(e){console.warn("Catalog offline; using cache",e);return JSON.parse(localStorage.getItem(catalogKey)||'{"version":"offline","entries":[],"assets":[]}')}}
-const catalog=await loadCatalog();
+let catalog={version:"loading",entries:[],assets:[]};loadCatalog().then(result=>{catalog=result;draw()}).catch(console.warn);
 const assetType={creatures:"CHARACTER",races:"CHARACTER",classes:"CHARACTER",settlements:"MAP",atlas:"MAP",maps:"MAP",items:"PROP"};
 function catalogUI(){const box=document.createElement("section");box.innerHTML='<h2>Repository content · '+esc(catalog.version)+'</h2><p>Read-only campaign content downloads from GitHub on first launch and is cached in this browser. User edits are kept separate.</p><p>'+catalog.entries.length+' lore entries · '+catalog.assets.length+' importable artworks</p><div class="row"><button id="scReload">Check for updates</button><button id="scImport">Import selected artworks to Owlbear assets</button></div><p class="muted">Choose your Shattered Crucible collection and folder when Owlbear opens its image importer. Maps go in Maps, creatures and species in Characters, and equipment in Props.</p>';root.querySelector("main")?.prepend(box);
 box.querySelector("#scReload").onclick=async()=>{let v=await loadCatalog();alert("Catalog version "+v.version+". Reload to show changes.")};
@@ -70,3 +80,5 @@ const priorDraw=draw;
 draw=function(){priorDraw();homebrewRegistryUI()};
 getHomebrew().then(v=>{publishedHomebrew=v;draw()}).catch(e=>console.warn("Homebrew registry unavailable",e));
 draw();
+
+connectOwlbear();
