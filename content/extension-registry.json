@@ -1,0 +1,128 @@
+{
+  "contract": "sc.extension.registry",
+  "schemaVersion": "1.0.0",
+  "revision": "2026-10-14.1",
+  "extensions": [
+    {
+      "id": "compendium",
+      "name": "Compendium",
+      "category": "Campaign",
+      "version": "0.6.0",
+      "manifestUrl": "./compendium/manifest.json",
+      "previewUrl": "./compendium/",
+      "minimumContractMajor": 1,
+      "dependencies": [],
+      "description": "World lore and reference entries"
+    },
+    {
+      "id": "homebrew",
+      "name": "Homebrew Studio",
+      "category": "Campaign",
+      "version": "0.6.0",
+      "manifestUrl": "./homebrew/manifest.json",
+      "previewUrl": "./homebrew/",
+      "minimumContractMajor": 1,
+      "dependencies": [],
+      "description": "Builders, registry packs and 5e.tools converter"
+    },
+    {
+      "id": "characters",
+      "name": "Character Sheets",
+      "category": "Campaign",
+      "version": "0.6.0",
+      "manifestUrl": "./characters/manifest.json",
+      "previewUrl": "./characters/",
+      "minimumContractMajor": 1,
+      "dependencies": [],
+      "description": "Character records and dice rolls"
+    },
+    {
+      "id": "shops",
+      "name": "Scene Shops",
+      "category": "Scene",
+      "version": "0.6.0",
+      "manifestUrl": "./shops/manifest.json",
+      "previewUrl": "./shops/",
+      "minimumContractMajor": 1,
+      "dependencies": [],
+      "description": "Merchant inventories and pricing"
+    },
+    {
+      "id": "atlas",
+      "name": "World Atlas",
+      "category": "Scene",
+      "version": "0.6.0",
+      "manifestUrl": "./atlas/manifest.json",
+      "previewUrl": "./atlas/",
+      "minimumContractMajor": 1,
+      "dependencies": [],
+      "description": "World locations and pins"
+    },
+    {
+      "id": "journal",
+      "name": "GM Journal",
+      "category": "Campaign",
+      "version": "0.6.0",
+      "manifestUrl": "./journal/manifest.json",
+      "previewUrl": "./journal/",
+      "minimumContractMajor": 1,
+      "dependencies": [],
+      "description": "Session preparation and quests"
+    },
+    {
+      "id": "encounters",
+      "name": "Encounter Director",
+      "category": "Campaign",
+      "version": "0.6.0",
+      "manifestUrl": "./encounters/manifest.json",
+      "previewUrl": "./encounters/",
+      "minimumContractMajor": 1,
+      "dependencies": [],
+      "description": "Initiative and encounter notes"
+    },
+    {
+      "id": "reputation",
+      "name": "Reputation & Factions",
+      "category": "Campaign",
+      "version": "0.7.0",
+      "manifestUrl": "./reputation/manifest.json",
+      "previewUrl": "./reputation/",
+      "minimumContractMajor": 1,
+      "dependencies": [],
+      "description": "Faction standings and reputation changes"
+    },
+    {
+      "id": "handouts",
+      "name": "Player Handouts",
+      "category": "Scene",
+      "version": "0.7.0",
+      "manifestUrl": "./handouts/manifest.json",
+      "previewUrl": "./handouts/",
+      "minimumContractMajor": 1,
+      "dependencies": [],
+      "description": "Player-facing shared handouts"
+    },
+    {
+      "id": "music",
+      "name": "Music Player",
+      "category": "Audio",
+      "version": "0.7.0",
+      "manifestUrl": "./music/manifest.json",
+      "previewUrl": "./music/",
+      "minimumContractMajor": 1,
+      "dependencies": [],
+      "description": "Soundtrack playback and cues"
+    },
+    {
+      "id": "sfx",
+      "name": "Sound Effects",
+      "category": "Audio",
+      "version": "0.7.0",
+      "manifestUrl": "./sfx/manifest.json",
+      "previewUrl": "./sfx/",
+      "minimumContractMajor": 1,
+      "dependencies": [],
+      "description": "Sound effect playback and cues"
+    }
+  ]
+}
