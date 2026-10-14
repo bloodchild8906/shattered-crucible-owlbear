@@ -1,0 +1,15 @@
+{
+  "name": "Crucible Reputation & Factions",
+  "version": "0.7.0",
+  "manifest_version": 1,
+  "description": "Standalone Shattered Crucible Reputation & Factions extension",
+  "author": "bloodchild8906",
+  "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
+  "action": {
+    "title": "Reputation & Factions",
+    "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/reputation/icon.svg",
+    "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/reputation/",
+    "width": 900,
+    "height": 760
+  }
+}

@@ -43,7 +43,11 @@
         "shops",
         "species",
         "spells",
-        "subclasses"
+        "subclasses",
+        "reputation",
+        "handouts",
+        "music",
+        "sfx"
       ]
     },
     "entries": {

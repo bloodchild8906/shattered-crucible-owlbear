@@ -1,0 +1,1 @@
+import {exportExchange,importExchange} from "./content-contract.js";for(const app of ["compendium","homebrew","characters","shops","atlas","journal","encounters","reputation","handouts","music","sfx"]){const v=exportExchange(app,[{name:"Demo "+app,type:"entry"}]);if(importExchange(app,v).length!==1)throw Error("Invalid "+app);console.log(app+" contract OK")}
