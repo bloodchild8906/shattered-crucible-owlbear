@@ -11,7 +11,7 @@ Bind merchants to Owlbear scene ID or scene name from the packaged shop catalog,
 
 ## Module behavior
 
-The example catalog is in ../content/scene-shops.json and is validated against Contract v1. Shops match current scene ID or name. Ledger and stock changes are browser-local.
+The example catalog is in ../content/scene-shops.json and is validated against Contract v1. Shops match named map item ID or name (Owlbear's public Scene API does not expose the scene ID/name). Ledger and stock changes are browser-local.
 
 ## Common standards
 

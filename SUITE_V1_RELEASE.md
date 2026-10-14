@@ -12,7 +12,7 @@ The common application is implemented in [suite-app.js](suite-app.js), [suite-vi
 [Contract v1](HOMEBREW_CONTRACT.md), [schema](contracts/entries.schema.json) and [schema validator](schema-validator.js) are required for all JSON imports and exports. All modules expose these operations in Settings, not the main toolbar.
 
 ## Persistence and multiplayer limitations
-User changes and histories are browser-local. Sound files are stored in browser IndexedDB. They are not synchronized across players. Owlbear asset APIs upload **images and scenes**, not audio tracks. Shop scene matching works against current Owlbear scene ID or scene name when the SDK is connected. GM journal content is local-only, not a server-enforced access control. Shareable handout URLs include the player-facing contents: anyone with the URL can read them.
+User changes and histories are browser-local. Sound files are stored in browser IndexedDB. They are not synchronized across players. Owlbear asset APIs upload **images and scenes**, not audio tracks. Shop location matching uses an Owlbear map item ID or map item name; the public SDK does not expose a scene name/ID. A manual selector allows fallback matching. It does not identify rooms across devices. GM journal content is local-only, not a server-enforced access control. Shareable handout URLs include the player-facing contents: anyone with the URL can read them.
 
 ## Character sheets
 The new character module has a roster/card landing page, stats, HP, AC, dice, attacks, features, spells, inventory, forms, contacts, notes, and a builder. It does **not** share the internal storage model of the separate `dnd-chars-sheet` extension, nor does it claim full parity with its more advanced mechanics. Advanced attunement, concentration and form-based rules remain future work.
@@ -24,3 +24,6 @@ The new character module has a roster/card landing page, stats, HP, AC, dice, at
 - 5e.tools interpreter test
 - GitHub Pages HTTP/manifest/asset checks
 - Live Owlbear room testing remains necessary for SDK-dependent asset imports and scene-token operations.
+
+## Migration
+Older browser records in `sc-suite/{module}` are copied to `shattered-crucible:v1:{module}` on first launch when no v1 data exists. Imported files and exports still enforce Contract v1.
