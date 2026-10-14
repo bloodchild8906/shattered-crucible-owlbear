@@ -1,3 +1,4 @@
+import {getHomebrew,refreshHomebrew} from "./homebrew-contract.js";
 const names={compendium:"Compendium",homebrew:"Homebrew Studio",characters:"Character Sheets",shops:"Scene Shops",atlas:"World Atlas",journal:"GM Journal",encounters:"Encounter Director"};
 const towns=["Ironhollow","Emberreach","Stormwatch","Thornwild","Ashenspire","Duskmire","Gloomfen","Sunscar","Frostwarden","Moonfen","Shattered Isles"];
 const types=["Item","Weapon","Armor","Gem","Material","Ingredient","Recipe","Class","Subclass","Species","Background","Feat","Spell","Monster","NPC","Guild","Location"];
@@ -46,4 +47,20 @@ box.querySelector("#scReload").onclick=async()=>{let v=await loadCatalog();alert
 box.querySelector("#scImport").onclick=async()=>{if(!OBR)return alert("Open this extension inside Owlbear Rodeo to import assets.");if(!catalog.assets.length)return alert("No published image assets are in this catalog yet.");const selected=catalog.assets.slice(0,20);const {buildImageUpload}=await import("https://esm.sh/@owlbear-rodeo/sdk@2.3.0");let uploads=[];for(const asset of selected){try{const response=await fetch(new URL(asset.path,catalogURL));if(!response.ok)throw Error("Missing "+asset.path);const blob=await response.blob();const file=new File([blob],asset.name+".png",{type:blob.type||"image/png"});uploads.push(buildImageUpload(file).name(asset.name).build())}catch(e){console.warn("Skipped",asset,e)}}if(uploads.length)await OBR.assets.uploadImages(uploads,assetType[selected[0].category]||"PROP");else alert("No available images to import.")};
 }
 const oldDraw=draw;draw=function(){oldDraw();catalogUI()};
+draw();
+
+
+let publishedHomebrew=null;
+function homebrewRegistryUI(){
+  if(!["compendium","homebrew","characters","shops"].includes(app))return;
+  const box=document.createElement("section");
+  const entries=publishedHomebrew?.entries||[];
+  const errors=publishedHomebrew?.errors||[];
+  box.innerHTML='<h2>Published Homebrew Registry</h2><p>'+esc(entries.length)+' definitions across '+esc(publishedHomebrew?.packs?.length||0)+' packs. Read-only registry; your created entries remain separate.</p><div class="row"><button id="scHomebrewRefresh">Refresh homebrew</button><a href="../HOMEBREW_CONTRACT.md" target="_blank" rel="noopener">Publisher contract</a></div>'+entries.slice(0,40).map(e=>'<article><b>'+esc(e.name)+'</b><small>'+esc(e.ref)+'</small><p>'+esc(e.description||"")+'</p></article>').join("")+(errors.length?'<p>'+errors.map(e=>esc(e.source+": "+e.message)).join("; ")+'</p>':"");
+  root.querySelector("main")?.append(box);
+  box.querySelector("#scHomebrewRefresh").onclick=async()=>{try{publishedHomebrew=await refreshHomebrew();draw()}catch(e){alert("Registry refresh failed: "+e.message)}};
+}
+const priorDraw=draw;
+draw=function(){priorDraw();homebrewRegistryUI()};
+getHomebrew().then(v=>{publishedHomebrew=v;draw()}).catch(e=>console.warn("Homebrew registry unavailable",e));
 draw();

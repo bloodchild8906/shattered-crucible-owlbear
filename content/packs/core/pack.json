@@ -1,0 +1,27 @@
+{
+  "contract": "sc.homebrew.pack",
+  "schemaVersion": "1.0.0",
+  "id": "shattered-crucible-core",
+  "version": "0.1.0",
+  "name": "Shattered Crucible Core",
+  "description": "Starter mechanics for The Shattered Crucible. Playtest homebrew.",
+  "publisher": {
+    "id": "bloodchild8906",
+    "name": "Shattered Crucible",
+    "url": "https://github.com/bloodchild8906/shattered-crucible-owlbear"
+  },
+  "license": "Homebrew content; author retains rights",
+  "minSuiteVersion": "0.6.0",
+  "data": {
+    "items": "./items.json",
+    "classes": "./classes.json",
+    "species": "./species.json"
+  },
+  "mediaBase": "./media/",
+  "dependencies": [],
+  "tags": [
+    "crafting",
+    "culinary",
+    "socketing"
+  ]
+}

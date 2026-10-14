@@ -1,0 +1,30 @@
+{
+  "contract": "sc.homebrew.entries",
+  "schemaVersion": "1.0.0",
+  "packId": "shattered-crucible-core",
+  "category": "classes",
+  "entries": [
+    {
+      "id": "hearthwarden",
+      "name": "Hearthwarden",
+      "type": "class",
+      "description": "A culinary support specialist who creates meals with ingredient-driven effects.",
+      "mechanics": {
+        "hitDie": 8,
+        "primaryAbility": "Wisdom",
+        "featureProgression": []
+      }
+    },
+    {
+      "id": "runewright",
+      "name": "Runewright",
+      "type": "class",
+      "description": "An arcane craftsman specializing in power-stone sockets and upgrades.",
+      "mechanics": {
+        "hitDie": 8,
+        "primaryAbility": "Intelligence",
+        "featureProgression": []
+      }
+    }
+  ]
+}

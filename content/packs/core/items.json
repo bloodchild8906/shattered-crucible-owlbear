@@ -1,0 +1,76 @@
+{
+  "contract": "sc.homebrew.entries",
+  "schemaVersion": "1.0.0",
+  "packId": "shattered-crucible-core",
+  "category": "items",
+  "entries": [
+    {
+      "id": "embershard",
+      "name": "Embershard",
+      "type": "gem",
+      "rarity": "uncommon",
+      "description": "A heat-storing socket gem.",
+      "price": {
+        "amount": 250,
+        "currency": "gp"
+      },
+      "mechanics": {
+        "socketTier": 1,
+        "effects": [
+          {
+            "trigger": "once-per-turn-on-hit",
+            "damage": {
+              "dice": "1",
+              "type": "fire"
+            }
+          }
+        ]
+      },
+      "tags": [
+        "socket",
+        "fire"
+      ]
+    },
+    {
+      "id": "moonmint",
+      "name": "Moonmint",
+      "type": "ingredient",
+      "rarity": "common",
+      "description": "Calming silver-green herb found in cool forests.",
+      "price": {
+        "amount": 5,
+        "currency": "gp"
+      },
+      "mechanics": {
+        "harvestDC": 12,
+        "cookingBonus": 1
+      },
+      "tags": [
+        "harvest",
+        "cooking"
+      ]
+    },
+    {
+      "id": "bronze-hearth-stew",
+      "name": "Bronze Hearth Stew",
+      "type": "recipe",
+      "rarity": "common",
+      "description": "A warming meal made with root vegetables and aromatic herbs.",
+      "price": {
+        "amount": 12,
+        "currency": "gp"
+      },
+      "mechanics": {
+        "ingredients": [
+          "sc://shattered-crucible-core/items/moonmint",
+          "root-vegetable"
+        ],
+        "cookingDC": 13,
+        "benefit": "1d4 temporary hit points for 1 hour on success"
+      },
+      "tags": [
+        "cooking"
+      ]
+    }
+  ]
+}

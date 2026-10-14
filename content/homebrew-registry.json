@@ -1,0 +1,26 @@
+{
+  "contract": "sc.homebrew.registry",
+  "schemaVersion": "1.0.0",
+  "revision": "2026-10-14.1",
+  "sources": [
+    {
+      "id": "shattered-crucible-core",
+      "name": "Shattered Crucible Core Homebrew",
+      "enabled": true,
+      "priority": 100,
+      "manifestUrl": "./packs/core/pack.json",
+      "trust": "first-party",
+      "updatePolicy": "on-launch"
+    }
+  ],
+  "defaults": {
+    "timeoutMs": 8000,
+    "maxPackBytes": 2097152,
+    "cacheStrategy": "stale-while-revalidate"
+  },
+  "integrations": {
+    "itemReferences": "sc://shattered-crucible-core/items/{id}",
+    "speciesReferences": "sc://shattered-crucible-core/species/{id}",
+    "classReferences": "sc://shattered-crucible-core/classes/{id}"
+  }
+}

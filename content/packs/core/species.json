@@ -1,0 +1,22 @@
+{
+  "contract": "sc.homebrew.entries",
+  "schemaVersion": "1.0.0",
+  "packId": "shattered-crucible-core",
+  "category": "species",
+  "entries": [
+    {
+      "id": "broodkin",
+      "name": "Broodkin",
+      "type": "species",
+      "description": "Dragon-descended people who channel a dormant draconic inheritance.",
+      "mechanics": {
+        "size": "Medium",
+        "speed": 30,
+        "traits": [
+          "Draconic Resilience (playtest)",
+          "Draconic Spark (playtest)"
+        ]
+      }
+    }
+  ]
+}

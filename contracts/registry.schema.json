@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bloodchild8906.github.io/shattered-crucible-owlbear/contracts/registry.schema.json",
+  "type": "object",
+  "required": [
+    "contract",
+    "schemaVersion",
+    "sources"
+  ],
+  "properties": {
+    "contract": {
+      "const": "sc.homebrew.registry"
+    },
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^1\\."
+    },
+    "revision": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "manifestUrl"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "manifestUrl": {
+            "type": "string"
+          },
+          "enabled": {
+            "type": "boolean"
+          },
+          "priority": {
+            "type": "integer"
+          },
+          "trust": {
+            "type": "string"
+          },
+          "updatePolicy": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
