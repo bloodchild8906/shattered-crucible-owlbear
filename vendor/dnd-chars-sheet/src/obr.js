@@ -1,0 +1,12 @@
+import OBR from '@owlbear-rodeo/sdk';
+import {validate} from './model.js';
+export const KEY='com.dnd-chars-sheet.character/v1';
+export const CHANNEL='com.dnd-chars-sheet.roll/v1';
+export async function connect(){if(!OBR.isAvailable)return null;await new Promise(resolve=>OBR.onReady(resolve));return {room:OBR.room.id,player:OBR.player.id,name:await OBR.player.getName()};}
+async function selected(){if(!await OBR.scene.isReady())throw Error('Open a scene first.');const selection=await OBR.player.getSelection();if(selection?.length!==1)throw Error('Select exactly one character token on the map.');const [item]=await OBR.scene.items.getItems(selection);if(!item||item.type!=='IMAGE'||item.layer!=='CHARACTER')throw Error('Choose an image token on the Character layer.');return item;}
+export async function inspectToken(){const item=await selected();return {id:item.id,name:item.name||'Unnamed token',hasSheet:!!item.metadata[KEY],owner:item.metadata[KEY]?.owner};}
+export async function saveToken(character,expectedId){const item=await selected();if(item.id!==expectedId)throw Error('Selection changed. Select the intended token and try again.');const owner=item.metadata[KEY]?.owner;const role=await OBR.player.getRole();if(owner&&owner!==OBR.player.id&&role!=='GM')throw Error('This snapshot belongs to another player. Ask the owner or GM to replace it.');const payload={version:1,owner:OBR.player.id,updatedAt:new Date().toISOString(),character};if(new TextEncoder().encode(JSON.stringify(payload)).length>48000)throw Error('This sheet is too large for a token snapshot. Export a JSON backup instead.');await OBR.scene.items.updateItems([item.id],items=>{for(const i of items)i.metadata[KEY]=payload;});return item.name;}
+export async function loadToken(){const item=await selected();const data=item.metadata[KEY];if(!data?.character)throw Error('The selected token has no dnd-chars-sheet snapshot.');return validate(data.character);}
+export async function shareRoll(data){await OBR.broadcast.sendMessage(CHANNEL,data,{destination:'REMOTE'});}
+export function receiveRoll(handler){return OBR.broadcast.onMessage(CHANNEL,event=>{if(validRoll(event.data))handler(event.data);});}
+export function validRoll(d){return !!d&&typeof d==='object'&&typeof d.label==='string'&&d.label.length<=300&&typeof d.character==='string'&&d.character.length<=300&&typeof d.expression==='string'&&d.expression.length<=180&&typeof d.detail==='string'&&d.detail.length<=3000&&Number.isFinite(d.total)&&Math.abs(d.total)<=1000000;}

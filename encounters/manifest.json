@@ -1,6 +1,6 @@
 {
   "name": "Crucible Encounter Director",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "manifest_version": 1,
   "description": "Create encounters, import character tokens from the current Owlbear scene, manage initiative, HP and rounds.",
   "author": "bloodchild8906",

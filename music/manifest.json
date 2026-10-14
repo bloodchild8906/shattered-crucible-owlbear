@@ -1,6 +1,6 @@
 {
   "name": "Crucible Music & Ambience",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "manifest_version": 1,
   "description": "Build soundtrack cues from HTTPS audio URLs or locally stored audio files. Playback, looping and volume are local to this b",
   "author": "bloodchild8906",

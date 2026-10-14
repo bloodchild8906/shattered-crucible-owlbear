@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Rajdhani:wght@500;600;700&display=swap');
+:root{--bg:#0a0c0e;--panel:#12161a;--panel2:#181e24;--edge:#262e36;--muted:#89949e;--text:#d5dce2;--gold:#ffb000;--teal:#22d3ee;color-scheme:dark}
+body{background-color:var(--bg);background-image:linear-gradient(#262e363a 1px,transparent 1px),linear-gradient(90deg,#262e363a 1px,transparent 1px);background-size:48px 48px;font-family:'JetBrains Mono',ui-monospace,Consolas,monospace;font-size:12px;color:var(--text)}
+h1,h2,h3,.brand b,.btn,.nav button{font-family:Rajdhani,'Arial Narrow',sans-serif!important;font-weight:700;letter-spacing:.04em}
+.top h1{color:var(--gold);text-transform:uppercase}.eyebrow{color:var(--gold)}
+aside{background:var(--panel);border-color:var(--edge)}.brand .sigil{background:var(--bg);border-color:var(--gold);border-radius:2px}.brand b{color:var(--gold)}.nav button{border-radius:0;font-size:17px}.nav button.active{background:var(--panel2);box-shadow:inset 3px 0 var(--gold)}
+.stat,.card,.steps,.guide,.search,.btn,.filter{border-radius:2px!important}
+.stat,.card{background:var(--panel);border-color:var(--edge)}.card:hover{border-color:var(--gold)}
+.card h3,.card h2{font-size:20px;color:var(--gold)}
+.iconbox{border-radius:2px;background:var(--bg);border-color:var(--gold);color:var(--gold)}.pill{background:#192c27;border-color:#30533d;color:#4ade80}
+.btn{background:var(--panel2);border-color:var(--edge);color:var(--text)}.btn.primary{background:var(--gold);border-color:var(--gold);color:#101010}
+.btn:hover,.cardbuttons button:hover{border-color:var(--gold)}.filter.active{color:var(--gold);background:var(--panel2);border-color:var(--gold)}.cardbuttons button{border-radius:2px!important;background:var(--panel2)!important;border-color:var(--edge)!important}
+.cardbuttons button:first-child{color:var(--gold)}.cardbuttons button:hover{border-color:var(--gold)!important}
+.guide{background:var(--panel);border-color:var(--gold)}.stat strong{color:var(--teal)}.stat span{color:var(--muted)}

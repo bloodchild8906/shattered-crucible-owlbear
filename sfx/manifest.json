@@ -1,6 +1,6 @@
 {
   "name": "Crucible Sound Effects",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "manifest_version": 1,
   "description": "Build an independent soundboard with HTTPS URLs or imported audio files, stored locally in IndexedDB.",
   "author": "bloodchild8906",

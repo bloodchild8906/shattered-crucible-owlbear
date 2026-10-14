@@ -1,0 +1,1 @@
+import{O as o,C as s,v as t}from"./obr-B42XcPxi.js";o.onReady(()=>{o.broadcast.onMessage(s,r=>{if(!t(r.data))return;const a=r.data;o.notification.show(`${a.character} · ${a.label}: ${a.total} (${a.expression})`).catch(console.error)})});

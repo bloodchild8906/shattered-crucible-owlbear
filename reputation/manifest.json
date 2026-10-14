@@ -1,6 +1,6 @@
 {
   "name": "Crucible Reputation & Factions",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "manifest_version": 1,
   "description": "Track faction standing from -100 to +100, record adjustments and reasons, and see relationship tiers.",
   "author": "bloodchild8906",

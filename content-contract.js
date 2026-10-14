@@ -1,6 +1,6 @@
 import {assertSchema} from "./schema-validator.js";
 const CONTRACT="sc.homebrew.entries",VERSION="1.0.0";
-export const categories={compendium:"locations",homebrew:"homebrew",characters:"characters",shops:"shops",atlas:"atlas",journal:"journal",encounters:"encounters",reputation:"reputation",handouts:"handouts",music:"music",sfx:"sfx"};
+export const categories={compendium:"locations",homebrew:"homebrew",characters:"characters",builder:"characters",dice:"characters",shops:"shops",atlas:"atlas",journal:"journal",encounters:"encounters",reputation:"reputation",handouts:"handouts",music:"music",sfx:"sfx"};
 const names=new Set([...Object.values(categories),"items","classes","subclasses","species","backgrounds","feats","spells","monsters","materials","recipes","npcs","guilds","locations"]);
 const ID=/^[a-z0-9][a-z0-9-]{1,63}$/;
 const slug=s=>String(s||"entry").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,60)||"entry";

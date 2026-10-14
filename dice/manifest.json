@@ -1,0 +1,15 @@
+{
+  "name": "Crucible Dice Roller",
+  "version": "1.3.0",
+  "manifest_version": 1,
+  "description": "Roll D&D dice expressions with the same character data and rules as dnd-chars-sheet",
+  "author": "bloodchild8906",
+  "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
+  "action": {
+    "title": "Dice Roller",
+    "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/dice/icon.svg",
+    "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/dice/",
+    "width": 960,
+    "height": 780
+  }
+}

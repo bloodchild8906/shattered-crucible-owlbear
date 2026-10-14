@@ -1,22 +1,5 @@
-# Character Sheets — Shattered Crucible v1.0.0
+# dnd-chars-sheet — Shattered Crucible
 
-Open a card-grid roster; edit character stats, feature lists, spell slots, inventory, contacts, notes and roll dice. Local saves and Contract v1 backups.
+Based on the full original dnd-chars-sheet v1.2.0 engine, retaining rest tracking, spells, inventory, forms, dice, and token snapshots. The first page is now a roster card grid for PCs, NPCs, familiars and monsters. Portrait HTTPS URLs and token-frame styles are available in the builder. Character Builder and Dice Roller are independently installed modules, sharing the same browser storage keys. Settings contains Contract v1 and legacy native JSON import/export.
 
-## Workflow
-
-1. Install this module in Owlbear Rodeo using [manifest.json](manifest.json) and enable it in your room.
-2. Open the module. Use **Overview** to browse entries, **Create** to add content, and item actions to interact.
-3. Select **Settings** for importing and exporting Contract v1 JSON, refreshing the public repository, and local data controls.
-4. Keep backups. Current user edits are held in this browser, not Owlbear metadata or a shared database.
-
-## Module behavior
-
-The roster is a card grid. Detail tabs include Overview, Forms, Features, Spells, Inventory, Contacts & Notes, Dice and Builder. It uses its own local storage rather than sharing dnd-chars-sheet's internal store.
-
-## Common standards
-
-- Data format: [Contract v1](../HOMEBREW_CONTRACT.md), authoritative [JSON Schema](../contracts/entries.schema.json).
-- Static content: [asset catalog](../content/assets-catalog.json) and [homebrew registry](../content/homebrew-registry.json).
-- User data: separate localStorage per module; imported audio uses IndexedDB.
-- Entries from unrelated extensions are independent until explicit cross-extension synchronization is implemented.
-- External input is rendered as escaped text; remote artwork and audio require HTTP(S) URLs.
+Use the same player and Owlbear room for all three modules so that the local dnd-chars-sheet store is shared. The full native source is included under vendor/dnd-chars-sheet/src in the suite repository.

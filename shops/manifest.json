@@ -1,6 +1,6 @@
 {
   "name": "Crucible Scene Shop Manager",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "manifest_version": 1,
   "description": "Bind merchants to Owlbear scene ID or scene name from the packaged shop catalog, edit merchandise, decrement stock and keep",
   "author": "bloodchild8906",
