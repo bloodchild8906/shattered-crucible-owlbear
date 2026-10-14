@@ -60,3 +60,14 @@ This version intentionally defines discovery, data and references, **not** execu
 `content-contract.js` exports `validateExchange`, `exportExchange`, `importExchange` and `exportText`. Inputs require a unique kebab-case entry ID, name and type for every record; extension category mismatches are rejected. A successful manual import asks for confirmation before replacing that extension's locally stored records.
 
 The pack registry continues to import *read-only published homebrew definitions* from GitHub via `homebrew-contract.js`; user-edited records remain separate from published packs. Other developers should use these same schemas and stable `sc://pack/category/id` references. This contract does not imply cloud synchronization, permissions or automatic execution of mechanics.
+
+
+## Enforced JSON Schema
+
+The authoritative schema is [contracts/entries.schema.json](contracts/entries.schema.json). A generated JavaScript snapshot, `contract-schema.js`, is checked into the repository so extensions validate even when offline. `schema-validator.js` interprets the supported schema keywords; `content-contract.js` calls `assertSchema()` for every manual import/export and for data passed through the 5e.tools interpreter. Schema errors reject the entire import before replacing local records. Semantic checks additionally reject duplicate entry IDs and wrong extension categories.
+
+When updating the contract, regenerate the snapshot from the JSON Schema and run `node schema.test.mjs`, `node contract.test.mjs`, `node suite.test.mjs` and `node fiveetools.test.mjs`. This does not provide full coverage of every JSON Schema 2020-12 feature: only the keywords used by this published schema are implemented. Changes that introduce new schema keywords must update the validator or adopt a full JSON Schema engine first.
+
+### Extension installation manifests
+
+Extension manifests are served at `https://bloodchild8906.github.io/shattered-crucible-owlbear/{extension-id}/manifest.json`. Registry entries contain site-root-relative locations such as `./compendium/manifest.json`, resolved against the Suite Manager's page URL, **not** the extension-registry JSON file in the `content/` directory. This distinction is important: resolving against the wrong base incorrectly points to `content/compendium/manifest.json`.

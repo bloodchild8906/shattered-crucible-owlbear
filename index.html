@@ -7,7 +7,7 @@ const URL_REG=new URL("./content/extension-registry.json",location.href),CACHE="
 const $=id=>document.getElementById(id);let entries=[],tracked={},category="",nav="all",current=null,queue=[],step=0;
 try{tracked=JSON.parse(localStorage.getItem(TRACK)||"{}")}catch{}
 const icons={compendium:"▤",homebrew:"✧",characters:"♙",shops:"⚖",atlas:"⌖",journal:"✎",encounters:"⚔",reputation:"♛",handouts:"▣",music:"♫",sfx:"◖))"};
-const uiMessage=s=>{$("message").textContent=s};const manifest=e=>new URL(e.manifestUrl,URL_REG).href;
+const uiMessage=s=>{$("message").textContent=s};const manifest=e=>new URL(e.manifestUrl,location.href).href;
 async function getRegistry(){try{const response=await fetch(URL_REG,{cache:"no-store"});if(!response.ok)throw Error("HTTP "+response.status);const data=await response.json();if(data.contract!=="sc.extension.registry"||!/^1\./.test(data.schemaVersion)||!Array.isArray(data.extensions))throw Error("Registry version not supported");localStorage.setItem(CACHE,JSON.stringify(data));$("health").textContent="● Registry online";$("revision").textContent=(data.revision||"—").split(".").slice(-2).join(".");return data.extensions}catch(error){const cached=localStorage.getItem(CACHE);$("health").textContent=cached?"● Offline cache":"● Registry unavailable";uiMessage(error.message);return cached?JSON.parse(cached).extensions:[]}}
 async function copy(text){try{await navigator.clipboard.writeText(text);uiMessage("Copied to clipboard.")}catch{prompt("Copy this URL",text)}}
 function confirmInstalled(e){if(tracked[e.id]===e.version)delete tracked[e.id];else tracked[e.id]=e.version;localStorage.setItem(TRACK,JSON.stringify(tracked));paint();if(current?.id===e.id)showGuide(e)}
