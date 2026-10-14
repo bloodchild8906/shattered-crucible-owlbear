@@ -1,0 +1,671 @@
+{
+  "generated_utc": "2026-10-14T04:19:06.477884+00:00",
+  "asset_counts": {
+    "high_resolution_images": 60,
+    "reference_files": 62,
+    "encounter_maps": 9,
+    "pdfs": 1
+  },
+  "files": [
+    {
+      "path": "campaign/artwork/species/aasimar.png",
+      "bytes": 2535012,
+      "sha256": "0837c7b1db2770aa17c2a89de69226c48ad4f40f9eca875b658f41b78cf4c466"
+    },
+    {
+      "path": "campaign/artwork/classes/arcane_mage_variant.png",
+      "bytes": 2528045,
+      "sha256": "9c98dccf1c572201d8d65529781a524f7f9f57d426552884cf32d8653daec973"
+    },
+    {
+      "path": "campaign/artwork/maps/ashenspire_settlement_map.png",
+      "bytes": 3496312,
+      "sha256": "c174a2f169156d81cabb1326f92e70c38ac6debddc0f3651f01a09802fcb6a0a"
+    },
+    {
+      "path": "campaign/artwork/classes/barbarian_warrior.png",
+      "bytes": 2168320,
+      "sha256": "2821bfbdfbc6342f3a589e62346faff64c38cd33f849174c5a0772ed8482a992"
+    },
+    {
+      "path": "campaign/artwork/classes/bard.png",
+      "bytes": 2563107,
+      "sha256": "69906b32a6a9e6677485b61af98b4d408e88eb451065e393ca0a354bdd9a1119"
+    },
+    {
+      "path": "campaign/artwork/creatures/celestial_stag.png",
+      "bytes": 2493463,
+      "sha256": "0c6dbe6f162b2f1faeca696fdcb54c8a67683e22f4d3b83265ff89efde2c276f"
+    },
+    {
+      "path": "campaign/artwork/creatures/cinder_worm.png",
+      "bytes": 3139364,
+      "sha256": "e517b4b06cc33a9b6e13a0e642bcd554352b17189a9c14981dd8efb09a612471"
+    },
+    {
+      "path": "campaign/artwork/items/dragonblood_vial.png",
+      "bytes": 779139,
+      "sha256": "a309f916b9b6b8d9a4b9e47e5b6f8994e11db0cb450197f4b78dc570e5c0cb05"
+    },
+    {
+      "path": "campaign/artwork/species/dragonborn.png",
+      "bytes": 1965616,
+      "sha256": "9d4394315fa3edb810145225d568275c9c902309768b934b98813cb2f15825c2"
+    },
+    {
+      "path": "campaign/artwork/classes/druid.png",
+      "bytes": 2136893,
+      "sha256": "58666aacfcc58b861e3addb5a401f2d0234d4b1b0f35a6008e18bc30ca87e4c1"
+    },
+    {
+      "path": "campaign/artwork/species/dwarf.png",
+      "bytes": 2336475,
+      "sha256": "4e6073a028524cd836abe5c0a7c8eb6e8c91026fc081debb02dee82c5b2b6452"
+    },
+    {
+      "path": "campaign/artwork/species/elf.png",
+      "bytes": 1649491,
+      "sha256": "53734be4ec443b5e9934191c3e46b509c10e5a6f2fd83a956f31d98fa1b8a89a"
+    },
+    {
+      "path": "campaign/artwork/creatures/ember_gale_griffin.png",
+      "bytes": 2959262,
+      "sha256": "a3f677c7e95bcdb6bf28acb444bb7fae411097dae489b71db7654d6071640ee9"
+    },
+    {
+      "path": "campaign/artwork/items/emberglass_ring.png",
+      "bytes": 2008370,
+      "sha256": "8dbeb1b74bb9ae7eddd4e111731f89bbd4bef0969c66cab6a6cde93cfcf48b06"
+    },
+    {
+      "path": "campaign/artwork/maps/emberreach_settlement_map.png",
+      "bytes": 3448754,
+      "sha256": "5707b6fb500e2a17ef91713c8d1afd449698a8303983a2cd2e7344c418f8a90c"
+    },
+    {
+      "path": "campaign/artwork/classes/flame_wielder.png",
+      "bytes": 2484360,
+      "sha256": "a0992f514c16e8fbf45ebed59e699ce534dbf17cc42c548da4dbe9e76a1ba500"
+    },
+    {
+      "path": "campaign/artwork/creatures/frosttide_troll.png",
+      "bytes": 3124650,
+      "sha256": "3ee45b93ab39e3b60d40036e19e8cd0239f058c59b12afa7283a652a9da3900b"
+    },
+    {
+      "path": "campaign/artwork/items/frostveil_cloak.png",
+      "bytes": 2241283,
+      "sha256": "e5fd3be73e70f63e5fbbe080ae6734514983d6d79d531454cec339d764d2ad1f"
+    },
+    {
+      "path": "campaign/artwork/maps/frostwarden_settlement_map.png",
+      "bytes": 3610535,
+      "sha256": "4b988bde283597482b6651a6eadf03bebe69af5082590bf62ae29cbffc4515e0"
+    },
+    {
+      "path": "campaign/artwork/species/genasi.png",
+      "bytes": 2358088,
+      "sha256": "1e64d60e9d7f4a6c7f1bb36b8c0a21ea0feea06d5391c54ea87117db636644fa"
+    },
+    {
+      "path": "campaign/artwork/maps/gloomfen_settlement_map.png",
+      "bytes": 3700079,
+      "sha256": "6d4a8e42a357446d20eaa26acbfa19f434372971cc9bca9f76df593a3a07ef15"
+    },
+    {
+      "path": "campaign/artwork/species/gnome.png",
+      "bytes": 2022689,
+      "sha256": "f65fa8714a790b9a92e8af948f9f5eb898a4fcf30e5b549d362477fd231f9c01"
+    },
+    {
+      "path": "campaign/artwork/species/goliath.png",
+      "bytes": 2262253,
+      "sha256": "1864755a333eec85ed9fc81f88e01bc26dd931dbe82566e9c0247ee4e8307be1"
+    },
+    {
+      "path": "campaign/artwork/species/halfling.png",
+      "bytes": 1487953,
+      "sha256": "bbba03dbbad65f6e7551d0e3a623b00d2fa48791f34a3e20d172f50fa5fbda49"
+    },
+    {
+      "path": "campaign/artwork/items/hearthkeeper_pot.png",
+      "bytes": 1928282,
+      "sha256": "4d55080696affcf49441992b0342f981d920682d387ed8d8bc365a2ed056b8b8"
+    },
+    {
+      "path": "campaign/artwork/species/human.png",
+      "bytes": 1602938,
+      "sha256": "88fb49fb07e7435f4e69067185490adfba45443ab117a127e21c5c24888d5179"
+    },
+    {
+      "path": "campaign/artwork/maps/ironhollow_settlement_map.png",
+      "bytes": 3829308,
+      "sha256": "5d8f0318b63155107219597c11566e714659673f3cb575cb9e67f7bd05ca9bb7"
+    },
+    {
+      "path": "campaign/artwork/creatures/mirelurker.png",
+      "bytes": 3131193,
+      "sha256": "9eba13482045383a4c3959cc2bbf57d01fb254767c3d4690bd88f55730321170"
+    },
+    {
+      "path": "campaign/artwork/items/moonfen_lantern.png",
+      "bytes": 1334179,
+      "sha256": "6c51a2a12825b3dbe6e40b0fc8f08413f823f0d313dd4cc46a8818e016ead4fb"
+    },
+    {
+      "path": "campaign/artwork/maps/moonfen_settlement_map.png",
+      "bytes": 3948407,
+      "sha256": "5cf845bde219812fedf5c04187931798062c706d5a5cf804055f37a0a0d53d59"
+    },
+    {
+      "path": "campaign/artwork/maps/moonfen_settlement_map_variant.png",
+      "bytes": 3856026,
+      "sha256": "3bb633ab3e2ada70397d86f59bad8799f2196c0011416a92abdc83538a5c4453"
+    },
+    {
+      "path": "campaign/artwork/species/orc.png",
+      "bytes": 2385075,
+      "sha256": "b34dcc8999a67fb180fa346b2c75f5e22c1d77835867c1a108641bb57f66c0b0"
+    },
+    {
+      "path": "campaign/artwork/classes/paladin.png",
+      "bytes": 2556808,
+      "sha256": "1be9d95a5e2635042e5dfcbf38fcd26f0ffba160dc296d45cd0187d3c826803d"
+    },
+    {
+      "path": "campaign/artwork/creatures/riftspawn_horror.png",
+      "bytes": 2975792,
+      "sha256": "ce1f9c1fde7d2dcd074064c32a9e58aa223fbc8a8f028b89e0d0d5ed4e0dd104"
+    },
+    {
+      "path": "campaign/artwork/classes/rogue.png",
+      "bytes": 2187122,
+      "sha256": "ad10a3f24b88dfd3eeb8c2fb1ebe13037615c081239ecf8a36508ac936125c37"
+    },
+    {
+      "path": "campaign/artwork/items/runebound_shield.png",
+      "bytes": 1945707,
+      "sha256": "2ed5694dbf9667750b75ce74487a77972997ac81a7ed7b66ae69b420c178682d"
+    },
+    {
+      "path": "campaign/artwork/classes/runewright.png",
+      "bytes": 2357645,
+      "sha256": "6b9b847233e920610badacd703f25d6f1351890a757f2743933d939150aaa565"
+    },
+    {
+      "path": "campaign/artwork/creatures/shadow_stalker.png",
+      "bytes": 2804509,
+      "sha256": "bf3319132a53d1072c0a70982c9a144faf98b0b707ed58d19e82ebb943727622"
+    },
+    {
+      "path": "campaign/artwork/maps/shattered_isles_settlement_map.png",
+      "bytes": 3562112,
+      "sha256": "ead3a05e176cfba13094e63053ee209a0ca296e1501abd55ebe32bd8eff9d052"
+    },
+    {
+      "path": "campaign/artwork/species/shifter.png",
+      "bytes": 2077607,
+      "sha256": "6bc322a3df325e957f13d533e1563b0f3f21f88cc0064838a049a277b8217a7b"
+    },
+    {
+      "path": "campaign/artwork/creatures/skybreak_drake.png",
+      "bytes": 2802090,
+      "sha256": "e030fbd5168b45a3774516e84f8b59671f5f0779ebc81bb6319fb1c30da25133"
+    },
+    {
+      "path": "campaign/artwork/items/skyforged_blade.png",
+      "bytes": 1238121,
+      "sha256": "4358bf24780a055fb1c406fb2d4836b6ae07fc40a9ad8858caa0b2f2f7798e04"
+    },
+    {
+      "path": "campaign/artwork/classes/sorcerer.png",
+      "bytes": 2863610,
+      "sha256": "b8fd9134915207a5fc92ee8cc36a9807a8c86e2b77c319f054c850b8ab2b087f"
+    },
+    {
+      "path": "campaign/artwork/items/starforged_armor.png",
+      "bytes": 1889549,
+      "sha256": "a10b0ca3211a36752b8ddfa8b64d4fcb1680fb51fd5f0bdd8adf6c0dec7d0e5e"
+    },
+    {
+      "path": "campaign/artwork/creatures/stoneheart_golem.png",
+      "bytes": 2896999,
+      "sha256": "30d06bb09dcefd0a42094226a10861845b32cc8c67abaf298405a3ff71c19f91"
+    },
+    {
+      "path": "campaign/artwork/items/stoneheart_hammer.png",
+      "bytes": 1035860,
+      "sha256": "802ee06330860fb7ef2a456c0db950682c3bc52f4905b3ded47209735b991f32"
+    },
+    {
+      "path": "campaign/artwork/maps/stormwatch_settlement_map.png",
+      "bytes": 3667990,
+      "sha256": "275f12e2c1f4c053b8446f276750bffccbacb6c480d2fc74f554fbc8ee7155c0"
+    },
+    {
+      "path": "campaign/artwork/creatures/stormwraith.png",
+      "bytes": 2849869,
+      "sha256": "efa560f2e5a20b7c5d8a897fcb9ba6938679dd2c044e1f5628107dd369629a27"
+    },
+    {
+      "path": "campaign/artwork/items/sunscar_bow.png",
+      "bytes": 789719,
+      "sha256": "78653aa1435070abdad953485840ac6657aaada4ae29805fed271f4838c7b939"
+    },
+    {
+      "path": "campaign/artwork/creatures/sunscar_sandwalker.png",
+      "bytes": 2925696,
+      "sha256": "1caffc9281675d6758dc344da21ad24e29a6a95c90d8d45d1065cff52ac81f90"
+    },
+    {
+      "path": "campaign/artwork/maps/sunscar_settlement_map.png",
+      "bytes": 3762965,
+      "sha256": "13084ddcb78d90a290b8d614f17142bbe9d65e601e22c7f3054ba839681bf2ea"
+    },
+    {
+      "path": "campaign/artwork/maps/thornwild_settlement_map.png",
+      "bytes": 3990812,
+      "sha256": "c8b479fc2d3f5a6a06c47b7d7bd8dbcd6cabff06dd91a3ce3caf66df28a666c5"
+    },
+    {
+      "path": "campaign/artwork/species/tiefling.png",
+      "bytes": 1759982,
+      "sha256": "aeff7e9592ffb5b2f917fd27a2e9761a74f931c71a62cd565cd30b257d4621ad"
+    },
+    {
+      "path": "campaign/artwork/classes/traveling_bard.png",
+      "bytes": 2210298,
+      "sha256": "2e4b654bbfe6861c254f24414fa330bd28207336c5d0edaf95017eac5a40f175"
+    },
+    {
+      "path": "campaign/artwork/maps/vhaldris_world_map_labeled.png",
+      "bytes": 3953225,
+      "sha256": "1137a7f049233743f7141d3cfbb4a99f3c4e2566bade3d7060376374f1a58cff"
+    },
+    {
+      "path": "campaign/artwork/maps/vhaldris_world_map_unmarked.png",
+      "bytes": 3833946,
+      "sha256": "4c933e5dcdb6ac852bf06dec00dc1a5ddf35fbc9f16a4a858a116c86257a3440"
+    },
+    {
+      "path": "campaign/artwork/creatures/voidtouched_owlbear.png",
+      "bytes": 3133468,
+      "sha256": "d80ff0a2085335f563f313b04ed0ad6a45243385656dda9a9ff83e1404de5c17"
+    },
+    {
+      "path": "campaign/artwork/classes/warlock.png",
+      "bytes": 2306098,
+      "sha256": "0b94dc4dcdd9ebd6fa77d6e7140e7566dbf103c556969247d4836fef8207add1"
+    },
+    {
+      "path": "campaign/artwork/classes/wizard.png",
+      "bytes": 2987769,
+      "sha256": "965564db47b395d9506e5c17aa03f40a1fa3da9a7094a430d20ca27cd66337c8"
+    },
+    {
+      "path": "campaign/artwork/classes/woodland_ranger.png",
+      "bytes": 1838887,
+      "sha256": "5c83de760f4f449addb0c128f5724b9714848c494e693bdf5a0573568d5574a7"
+    },
+    {
+      "path": "campaign/reference-assets/asset_manifest.json",
+      "bytes": 11579,
+      "sha256": "adb12679f6ee67b07b34bcce274d850a5dfc75936b6f9c132ba391ce320f96cd"
+    },
+    {
+      "path": "campaign/reference-assets/atlas/vhaldris_world_map.png",
+      "bytes": 897653,
+      "sha256": "a03825e0a9834014e564f07acd243d4a90f421b72a1440f4ef03e3bd061b49e2"
+    },
+    {
+      "path": "campaign/reference-assets/classes/barbarian.png",
+      "bytes": 26615,
+      "sha256": "a3f165addd422346c7f06eabac5c8944940828265a58cb86592a67eda3529399"
+    },
+    {
+      "path": "campaign/reference-assets/classes/bard.png",
+      "bytes": 27232,
+      "sha256": "0cd27315efb0dff40537bd7eefc06be7095870b29e0ea46365ecf4a830cdc40f"
+    },
+    {
+      "path": "campaign/reference-assets/classes/cleric.png",
+      "bytes": 26044,
+      "sha256": "2f84b0ff907111ce4b0ba63b425deab48ef27cd1b7ff9fae6d72e5664e7ee88b"
+    },
+    {
+      "path": "campaign/reference-assets/classes/druid.png",
+      "bytes": 24959,
+      "sha256": "f2b3c1fa6d27032fe1b2b9bd2c2bc0da12dc30a283533e51a848fab5ddbda4be"
+    },
+    {
+      "path": "campaign/reference-assets/classes/fighter.png",
+      "bytes": 27635,
+      "sha256": "04481a54c54149bef0b8e58eb15cd2ac0f28c17411eb4424cd44e6d10991a36d"
+    },
+    {
+      "path": "campaign/reference-assets/classes/hearthwarden.png",
+      "bytes": 27972,
+      "sha256": "a659d1fecff9c331fdb9411f80e8beb7924172bbf62c72fcb607588242ad0e87"
+    },
+    {
+      "path": "campaign/reference-assets/classes/paladin.png",
+      "bytes": 26253,
+      "sha256": "be4fcf8c15cea6a9d1cf63532bbb86ab5c5c3da65f1a1beb579ae19d6db5e146"
+    },
+    {
+      "path": "campaign/reference-assets/classes/ranger.png",
+      "bytes": 26962,
+      "sha256": "23e037eff9ab6b028a39bf1dfda69f09377d2db0e45caf9f9d9cece366e58da8"
+    },
+    {
+      "path": "campaign/reference-assets/classes/rogue.png",
+      "bytes": 26726,
+      "sha256": "7db7cc1ab52833ee492ed0dd73f41831eea503b72dd1989681de353cd44664f1"
+    },
+    {
+      "path": "campaign/reference-assets/classes/runewright.png",
+      "bytes": 26066,
+      "sha256": "46b74588fd30e70af67f06ebe8e2b10c8598279f3b2f2efaa6d382036545ee4c"
+    },
+    {
+      "path": "campaign/reference-assets/classes/sorcerer.png",
+      "bytes": 27017,
+      "sha256": "18036ce723ff743c5ce31e3bf8f5dd51a491be1b14768c3e28cdfd7bcad00df8"
+    },
+    {
+      "path": "campaign/reference-assets/classes/warlock.png",
+      "bytes": 26371,
+      "sha256": "3f975b8b22c79e74641c6526b8c931a11a9e30c32ce185f21b7100d1636c86fc"
+    },
+    {
+      "path": "campaign/reference-assets/classes/wizard.png",
+      "bytes": 25852,
+      "sha256": "73ca3405c3cf513c56c3e93d3d87d55f2487794cc710e678883ce24ae9a27a82"
+    },
+    {
+      "path": "campaign/reference-assets/creatures/celestial_stag.png",
+      "bytes": 40298,
+      "sha256": "ce801cfc31682ec1a07e334acb93bd1abef8fa45d8b4524738b86ba48a3b37ab"
+    },
+    {
+      "path": "campaign/reference-assets/creatures/cinder_worm.png",
+      "bytes": 41639,
+      "sha256": "1857469739d5a6cc35fe8d3a801528a9f89c6a1ec4b6c6c205337d37d3f2e755"
+    },
+    {
+      "path": "campaign/reference-assets/creatures/ember_gale_griffin.png",
+      "bytes": 40042,
+      "sha256": "36e586845eb53bc52ba1f029006cd8a6694776cdedb0fa2136221ab3928cbf0e"
+    },
+    {
+      "path": "campaign/reference-assets/creatures/frosttide_troll.png",
+      "bytes": 39540,
+      "sha256": "6de95076d8cdb394687f2e6fdc430084e388cab8c503deebb78949c1d0c73372"
+    },
+    {
+      "path": "campaign/reference-assets/creatures/mirelurker.png",
+      "bytes": 37659,
+      "sha256": "59487145c910b7d2eba38c29e604982fc219f5e0f615b63e20d0d2fc8d689b09"
+    },
+    {
+      "path": "campaign/reference-assets/creatures/riftspawn_horror.png",
+      "bytes": 38293,
+      "sha256": "e091b2bc02bba7b8f8167873c77221b09dab4c04fb9c3ca6e2e5eff76d7724c7"
+    },
+    {
+      "path": "campaign/reference-assets/creatures/shadow_stalker.png",
+      "bytes": 36230,
+      "sha256": "eef423f57088906a5c9cbe6ea73a53a5a6f908c593349c0fc638e27005568527"
+    },
+    {
+      "path": "campaign/reference-assets/creatures/skybreak_drake.png",
+      "bytes": 38229,
+      "sha256": "691ba73969e916ff453c0b4bb4ae8e6366041d1027a98f693d561a7fa2a783d2"
+    },
+    {
+      "path": "campaign/reference-assets/creatures/stoneheart_golem.png",
+      "bytes": 37144,
+      "sha256": "23e1fc7eabc1e8d0bfff12b4a071dbf4d5c50ad673b54bbb3e6b459c047ec1d2"
+    },
+    {
+      "path": "campaign/reference-assets/creatures/stormwraith.png",
+      "bytes": 40555,
+      "sha256": "5f706ed1ab69a6f6dfba3f2e3350545524133050f50c673a6d1de56c4da2462e"
+    },
+    {
+      "path": "campaign/reference-assets/creatures/sunscar_sandwalker.png",
+      "bytes": 39675,
+      "sha256": "0c2f0033b22f085dca4579d5ba57863c0ef86d7a3b0dcc654dc88de29ba1004b"
+    },
+    {
+      "path": "campaign/reference-assets/creatures/voidtouched_owlbear.png",
+      "bytes": 41586,
+      "sha256": "e1aed67ab609785eaedf6f796e48e2a23dd8058f9a61daafabd14b3e9be85398"
+    },
+    {
+      "path": "campaign/reference-assets/items/aether_compass.png",
+      "bytes": 25175,
+      "sha256": "b7f1ea31f895e2dc561c591ff990e1861bfe10d70e81ec5bf70ce2a8785bbebf"
+    },
+    {
+      "path": "campaign/reference-assets/items/dragonblood_vial.png",
+      "bytes": 22344,
+      "sha256": "f7836d10a0981c4b2e7c05254318867bb57c1fa9a8811457603a76d4a652bf4a"
+    },
+    {
+      "path": "campaign/reference-assets/items/emberglass_ring.png",
+      "bytes": 25612,
+      "sha256": "79390840441990550b8922bdfd0e030f97aff087edb9bbfca7c3e4bd65b52dc6"
+    },
+    {
+      "path": "campaign/reference-assets/items/frostveil_cloak.png",
+      "bytes": 26189,
+      "sha256": "638e7d50e1d89cb762fe551feabcf9ef8c8e9a8d485b42e8f4dcfe4266df80e5"
+    },
+    {
+      "path": "campaign/reference-assets/items/hearthkeeper_pot.png",
+      "bytes": 24473,
+      "sha256": "4e994ef193daab8df46f6ca5eee10fbf2a62d5514d710e9d6072e6d1f506fd47"
+    },
+    {
+      "path": "campaign/reference-assets/items/moonfen_lantern.png",
+      "bytes": 23553,
+      "sha256": "34e3a8bbb16c8bc5a46a9fa9c58ba217eff9eb1948d174bdd9dcfe808c4e1972"
+    },
+    {
+      "path": "campaign/reference-assets/items/runebound_shield.png",
+      "bytes": 25265,
+      "sha256": "684f15631bdc833289eeb91198fa860a9e7bcd026001c9ab24310fe38b074c85"
+    },
+    {
+      "path": "campaign/reference-assets/items/skyforged_blade.png",
+      "bytes": 22980,
+      "sha256": "bbe9edd67966d9e54945e57df34f97d5047610f840bce5a841f5c5dc544700cb"
+    },
+    {
+      "path": "campaign/reference-assets/items/starforged_armor.png",
+      "bytes": 28444,
+      "sha256": "3c44db3e9e87d47e02182bfc2ce5b19328dcbe88207ebff55e438843f69f9ae3"
+    },
+    {
+      "path": "campaign/reference-assets/items/stoneheart_hammer.png",
+      "bytes": 22036,
+      "sha256": "844bf8a31ce5f5b3053ecb8b566c194ccfec92e618db23e17593b47ba4355131"
+    },
+    {
+      "path": "campaign/reference-assets/items/sunscar_bow.png",
+      "bytes": 23170,
+      "sha256": "26eb1696bcff88b5e32664c6a4f9183314442ddc64a35ce962cd2bbd1936d235"
+    },
+    {
+      "path": "campaign/reference-assets/items/voidshard_tome.png",
+      "bytes": 25784,
+      "sha256": "2e316ac6a839cfa33d2a8a97beac08aa9290e3df74dabc8d657e5f5bf177d2c4"
+    },
+    {
+      "path": "campaign/reference-assets/races/aasimar.png",
+      "bytes": 27861,
+      "sha256": "7bb7f0ff2df32ea378090b63b39e05ddf14493f1efb181f9daeb6a8f80c484b3"
+    },
+    {
+      "path": "campaign/reference-assets/races/dragonborn.png",
+      "bytes": 28236,
+      "sha256": "344fa09b6623a4fa1b27abc7056ae78537e7b346337db11aefbba4a2b2eb9d21"
+    },
+    {
+      "path": "campaign/reference-assets/races/dwarf.png",
+      "bytes": 27151,
+      "sha256": "d12d8eca401cc52d10c01da4ecc2c2a5c7436ada0cfd7305201333739cb7f379"
+    },
+    {
+      "path": "campaign/reference-assets/races/elf.png",
+      "bytes": 29129,
+      "sha256": "678f7a189c171c861f10625d643255d765c14f2f895e341a2bde57483a22ae08"
+    },
+    {
+      "path": "campaign/reference-assets/races/genasi.png",
+      "bytes": 27874,
+      "sha256": "644f97e776423eff453f59967ddb3ebeab655464b88a69408a88a26b990f3d4a"
+    },
+    {
+      "path": "campaign/reference-assets/races/gnome.png",
+      "bytes": 28324,
+      "sha256": "c54ea6fd4b346b073bdd3e6aabc54bb0f38c9cc4c7584b2292d1b40d7025a56e"
+    },
+    {
+      "path": "campaign/reference-assets/races/goliath.png",
+      "bytes": 28940,
+      "sha256": "c7a5e49d514bd28d13f96923b1c67f4b8175db8cfea6974624a5d54fb17cd20e"
+    },
+    {
+      "path": "campaign/reference-assets/races/halfling.png",
+      "bytes": 28430,
+      "sha256": "8ceed808b54763676ca224992d22a3e6f12d5d24303462c613c885fc5b0be9bd"
+    },
+    {
+      "path": "campaign/reference-assets/races/human.png",
+      "bytes": 28459,
+      "sha256": "0506be01f2b9b0b4d24c17fa6dc1c59d16d697dd5bedafcffd31a319fdd04a53"
+    },
+    {
+      "path": "campaign/reference-assets/races/orc.png",
+      "bytes": 28764,
+      "sha256": "e595b50ed5536ea6137c81fe35324a87523ce8dda588d8b8274c424d667d1cb8"
+    },
+    {
+      "path": "campaign/reference-assets/races/shifter.png",
+      "bytes": 28150,
+      "sha256": "e3ce0b46bd7a6ebcbef33340f9adbb1a1ab749a2af8f3e7720dae4f6d9cf6ac2"
+    },
+    {
+      "path": "campaign/reference-assets/races/tiefling.png",
+      "bytes": 28486,
+      "sha256": "f88c5f99872986407aa0db1f55bf724e39362bbc45e8c150a46b42747bea6c3f"
+    },
+    {
+      "path": "campaign/reference-assets/settlements/ashenspire.png",
+      "bytes": 67780,
+      "sha256": "f4365e93de8bf57da43d79233838e77e1c7754ecd4cde679b4811b6bb154d0d6"
+    },
+    {
+      "path": "campaign/reference-assets/settlements/duskmire.png",
+      "bytes": 70576,
+      "sha256": "f06e5e4bca7ab1a2e831e9fe422cece8d53b8570083b93e2cff09d9c5fa916a4"
+    },
+    {
+      "path": "campaign/reference-assets/settlements/emberreach.png",
+      "bytes": 108222,
+      "sha256": "35d8a330632ea3e81ee127793c80ecc67ceaacbff67f2764096b78d424e4ff02"
+    },
+    {
+      "path": "campaign/reference-assets/settlements/frostwarden.png",
+      "bytes": 47800,
+      "sha256": "770e694a48b47aed536035acdd2aba2f9f2f212c6f86beac478ffa8a62b0f355"
+    },
+    {
+      "path": "campaign/reference-assets/settlements/gloomfen.png",
+      "bytes": 70169,
+      "sha256": "52baad19cb25e8adc452ee0f9af387c2e8dc54b5c38c68364039efcc9e04d0c7"
+    },
+    {
+      "path": "campaign/reference-assets/settlements/ironhollow.png",
+      "bytes": 110414,
+      "sha256": "0936bde943e2537202b96d1bbd416d174f47e449a4e6e580f11cd1b9c628e1ff"
+    },
+    {
+      "path": "campaign/reference-assets/settlements/moonfen.png",
+      "bytes": 48548,
+      "sha256": "9869a22ac1a0639203bd45bfba167937c140b676af856ca2570a6632188d9b06"
+    },
+    {
+      "path": "campaign/reference-assets/settlements/shattered_isles.png",
+      "bytes": 47154,
+      "sha256": "904ba2026a95b1d48d0f2fcd3105441c0022924b9b0ee8e0064396c6720e9789"
+    },
+    {
+      "path": "campaign/reference-assets/settlements/stormwatch.png",
+      "bytes": 106813,
+      "sha256": "504260e2f6d275cba6b4df4b2d81acc6183f4ec8c74b33ce31db2dcd47996fb1"
+    },
+    {
+      "path": "campaign/reference-assets/settlements/sunscar.png",
+      "bytes": 49026,
+      "sha256": "59641b0f3c47f5a7c4991b277f920738fbd1402f0dae6518e43ecc665c578b86"
+    },
+    {
+      "path": "campaign/reference-assets/settlements/thornwild.png",
+      "bytes": 70015,
+      "sha256": "d0c7f84da07c97b6428d4d5556e9b384c82a997b11f74cc7ad9135a7880af001"
+    },
+    {
+      "path": "campaign/encounter-maps/riverford.png",
+      "bytes": 4424065,
+      "sha256": "94bd1e00c5c7967913229c553bbe00c9d439d4de31c4a1c931bffbdf1df5a3e8"
+    },
+    {
+      "path": "campaign/encounter-maps/stonehollow.png",
+      "bytes": 4301927,
+      "sha256": "7c3abbb71cbb0a6acf202a1cd672dba11d930bd207de9e12fc2e7b16dd662534"
+    },
+    {
+      "path": "campaign/encounter-maps/thornewood.png",
+      "bytes": 4362960,
+      "sha256": "e06d472d58b91c253a59cfc9a77a6c43b5281f97f20c4e715fae216f3a1d06bf"
+    },
+    {
+      "path": "campaign/encounter-maps/emberwatch.png",
+      "bytes": 4561647,
+      "sha256": "ce59a1072bdfc00d243f6e87a0ade754bb9bf78a4b3e80dfbeabb9f18b17a5c9"
+    },
+    {
+      "path": "campaign/encounter-maps/mistharbor.png",
+      "bytes": 4385519,
+      "sha256": "8afbcfc2308cca95424cb8b785af9c2bbdac0073646a729bde23be1d846b9f00"
+    },
+    {
+      "path": "campaign/encounter-maps/roadside_ambush.png",
+      "bytes": 4323604,
+      "sha256": "d08ff2daa2bf620008aa19582809f83606646f1268435175ef6fd861564b3ce8"
+    },
+    {
+      "path": "campaign/encounter-maps/ancient_ritual_ruins.png",
+      "bytes": 4366236,
+      "sha256": "82c436238782446fb41f9b9edf31cefb11f12dffd67c1c54fe429601fde335d1"
+    },
+    {
+      "path": "campaign/encounter-maps/market_showdown.png",
+      "bytes": 4365807,
+      "sha256": "d1912c6e3e7778592989a6db47536f8ca40b01b87cdea9faa8da31ab524d706b"
+    },
+    {
+      "path": "campaign/encounter-maps/flooded_tunnels.png",
+      "bytes": 3604763,
+      "sha256": "9ea06a9833ca2547e3fef7fe73df296794916818534563ca0ab5de6c132ed3c3"
+    },
+    {
+      "path": "campaign/The_Shattered_Crucible_Illustrated_Complete.pdf",
+      "bytes": 32310333,
+      "sha256": "96d9e79bc2785c08f6e9e8ec9b7f5f7e7287f68cc059d1d935b1f5fc2e706f4e"
+    }
+  ]
+}

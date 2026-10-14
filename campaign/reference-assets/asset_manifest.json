@@ -1,0 +1,676 @@
+{
+  "source": "AI-generated reference contact sheet; crops are separate assets, not original full-resolution renders",
+  "assets": [
+    {
+      "category": "atlas",
+      "name": "Vhaldris World Map",
+      "path": "atlas/vhaldris_world_map.png",
+      "crop": [
+        0,
+        0,
+        800,
+        490
+      ]
+    },
+    {
+      "category": "settlements",
+      "name": "Ironhollow",
+      "path": "settlements/ironhollow.png",
+      "crop": [
+        803,
+        0,
+        1046,
+        196
+      ]
+    },
+    {
+      "category": "settlements",
+      "name": "Emberreach",
+      "path": "settlements/emberreach.png",
+      "crop": [
+        1046,
+        0,
+        1293,
+        196
+      ]
+    },
+    {
+      "category": "settlements",
+      "name": "Stormwatch",
+      "path": "settlements/stormwatch.png",
+      "crop": [
+        1293,
+        0,
+        1536,
+        196
+      ]
+    },
+    {
+      "category": "settlements",
+      "name": "Thornwild",
+      "path": "settlements/thornwild.png",
+      "crop": [
+        803,
+        200,
+        983,
+        369
+      ]
+    },
+    {
+      "category": "settlements",
+      "name": "Ashenspire",
+      "path": "settlements/ashenspire.png",
+      "crop": [
+        983,
+        200,
+        1167,
+        369
+      ]
+    },
+    {
+      "category": "settlements",
+      "name": "Duskmire",
+      "path": "settlements/duskmire.png",
+      "crop": [
+        1167,
+        200,
+        1350,
+        369
+      ]
+    },
+    {
+      "category": "settlements",
+      "name": "Gloomfen",
+      "path": "settlements/gloomfen.png",
+      "crop": [
+        1350,
+        200,
+        1536,
+        369
+      ]
+    },
+    {
+      "category": "settlements",
+      "name": "Sunscar",
+      "path": "settlements/sunscar.png",
+      "crop": [
+        803,
+        369,
+        983,
+        487
+      ]
+    },
+    {
+      "category": "settlements",
+      "name": "Frostwarden",
+      "path": "settlements/frostwarden.png",
+      "crop": [
+        983,
+        369,
+        1167,
+        487
+      ]
+    },
+    {
+      "category": "settlements",
+      "name": "Moonfen",
+      "path": "settlements/moonfen.png",
+      "crop": [
+        1167,
+        369,
+        1350,
+        487
+      ]
+    },
+    {
+      "category": "settlements",
+      "name": "Shattered Isles",
+      "path": "settlements/shattered_isles.png",
+      "crop": [
+        1350,
+        369,
+        1536,
+        487
+      ]
+    },
+    {
+      "category": "creatures",
+      "name": "Stoneheart Golem",
+      "path": "creatures/stoneheart_golem.png",
+      "crop": [
+        0,
+        492,
+        128,
+        637
+      ]
+    },
+    {
+      "category": "creatures",
+      "name": "Stormwraith",
+      "path": "creatures/stormwraith.png",
+      "crop": [
+        128,
+        492,
+        256,
+        637
+      ]
+    },
+    {
+      "category": "creatures",
+      "name": "Cinder Worm",
+      "path": "creatures/cinder_worm.png",
+      "crop": [
+        256,
+        492,
+        384,
+        637
+      ]
+    },
+    {
+      "category": "creatures",
+      "name": "Voidtouched Owlbear",
+      "path": "creatures/voidtouched_owlbear.png",
+      "crop": [
+        384,
+        492,
+        512,
+        637
+      ]
+    },
+    {
+      "category": "creatures",
+      "name": "Ember Gale Griffin",
+      "path": "creatures/ember_gale_griffin.png",
+      "crop": [
+        512,
+        492,
+        640,
+        637
+      ]
+    },
+    {
+      "category": "creatures",
+      "name": "Riftspawn Horror",
+      "path": "creatures/riftspawn_horror.png",
+      "crop": [
+        640,
+        492,
+        768,
+        637
+      ]
+    },
+    {
+      "category": "creatures",
+      "name": "Skybreak Drake",
+      "path": "creatures/skybreak_drake.png",
+      "crop": [
+        768,
+        492,
+        896,
+        637
+      ]
+    },
+    {
+      "category": "creatures",
+      "name": "Sunscar Sandwalker",
+      "path": "creatures/sunscar_sandwalker.png",
+      "crop": [
+        896,
+        492,
+        1024,
+        637
+      ]
+    },
+    {
+      "category": "creatures",
+      "name": "Frosttide Troll",
+      "path": "creatures/frosttide_troll.png",
+      "crop": [
+        1024,
+        492,
+        1152,
+        637
+      ]
+    },
+    {
+      "category": "creatures",
+      "name": "Mirelurker",
+      "path": "creatures/mirelurker.png",
+      "crop": [
+        1152,
+        492,
+        1280,
+        637
+      ]
+    },
+    {
+      "category": "creatures",
+      "name": "Shadow Stalker",
+      "path": "creatures/shadow_stalker.png",
+      "crop": [
+        1280,
+        492,
+        1408,
+        637
+      ]
+    },
+    {
+      "category": "creatures",
+      "name": "Celestial Stag",
+      "path": "creatures/celestial_stag.png",
+      "crop": [
+        1408,
+        492,
+        1536,
+        637
+      ]
+    },
+    {
+      "category": "items",
+      "name": "Emberglass Ring",
+      "path": "items/emberglass_ring.png",
+      "crop": [
+        0,
+        646,
+        92,
+        790
+      ]
+    },
+    {
+      "category": "items",
+      "name": "Skyforged Blade",
+      "path": "items/skyforged_blade.png",
+      "crop": [
+        92,
+        646,
+        183,
+        790
+      ]
+    },
+    {
+      "category": "items",
+      "name": "Stoneheart Hammer",
+      "path": "items/stoneheart_hammer.png",
+      "crop": [
+        183,
+        646,
+        275,
+        790
+      ]
+    },
+    {
+      "category": "items",
+      "name": "Frostveil Cloak",
+      "path": "items/frostveil_cloak.png",
+      "crop": [
+        275,
+        646,
+        367,
+        790
+      ]
+    },
+    {
+      "category": "items",
+      "name": "Sunscar Bow",
+      "path": "items/sunscar_bow.png",
+      "crop": [
+        367,
+        646,
+        458,
+        790
+      ]
+    },
+    {
+      "category": "items",
+      "name": "Voidshard Tome",
+      "path": "items/voidshard_tome.png",
+      "crop": [
+        458,
+        646,
+        550,
+        790
+      ]
+    },
+    {
+      "category": "items",
+      "name": "Aether Compass",
+      "path": "items/aether_compass.png",
+      "crop": [
+        550,
+        646,
+        642,
+        790
+      ]
+    },
+    {
+      "category": "items",
+      "name": "Hearthkeeper Pot",
+      "path": "items/hearthkeeper_pot.png",
+      "crop": [
+        642,
+        646,
+        733,
+        790
+      ]
+    },
+    {
+      "category": "items",
+      "name": "Dragonblood Vial",
+      "path": "items/dragonblood_vial.png",
+      "crop": [
+        733,
+        646,
+        825,
+        790
+      ]
+    },
+    {
+      "category": "items",
+      "name": "Runebound Shield",
+      "path": "items/runebound_shield.png",
+      "crop": [
+        825,
+        646,
+        917,
+        790
+      ]
+    },
+    {
+      "category": "items",
+      "name": "Moonfen Lantern",
+      "path": "items/moonfen_lantern.png",
+      "crop": [
+        917,
+        646,
+        1008,
+        790
+      ]
+    },
+    {
+      "category": "items",
+      "name": "Starforged Armor",
+      "path": "items/starforged_armor.png",
+      "crop": [
+        1008,
+        646,
+        1100,
+        790
+      ]
+    },
+    {
+      "category": "races",
+      "name": "Human",
+      "path": "races/human.png",
+      "crop": [
+        0,
+        795,
+        65,
+        1024
+      ]
+    },
+    {
+      "category": "races",
+      "name": "Elf",
+      "path": "races/elf.png",
+      "crop": [
+        65,
+        795,
+        129,
+        1024
+      ]
+    },
+    {
+      "category": "races",
+      "name": "Dwarf",
+      "path": "races/dwarf.png",
+      "crop": [
+        129,
+        795,
+        194,
+        1024
+      ]
+    },
+    {
+      "category": "races",
+      "name": "Gnome",
+      "path": "races/gnome.png",
+      "crop": [
+        194,
+        795,
+        258,
+        1024
+      ]
+    },
+    {
+      "category": "races",
+      "name": "Halfling",
+      "path": "races/halfling.png",
+      "crop": [
+        258,
+        795,
+        323,
+        1024
+      ]
+    },
+    {
+      "category": "races",
+      "name": "Tiefling",
+      "path": "races/tiefling.png",
+      "crop": [
+        323,
+        795,
+        388,
+        1024
+      ]
+    },
+    {
+      "category": "races",
+      "name": "Dragonborn",
+      "path": "races/dragonborn.png",
+      "crop": [
+        388,
+        795,
+        452,
+        1024
+      ]
+    },
+    {
+      "category": "races",
+      "name": "Aasimar",
+      "path": "races/aasimar.png",
+      "crop": [
+        452,
+        795,
+        517,
+        1024
+      ]
+    },
+    {
+      "category": "races",
+      "name": "Genasi",
+      "path": "races/genasi.png",
+      "crop": [
+        517,
+        795,
+        581,
+        1024
+      ]
+    },
+    {
+      "category": "races",
+      "name": "Goliath",
+      "path": "races/goliath.png",
+      "crop": [
+        581,
+        795,
+        646,
+        1024
+      ]
+    },
+    {
+      "category": "races",
+      "name": "Orc",
+      "path": "races/orc.png",
+      "crop": [
+        646,
+        795,
+        710,
+        1024
+      ]
+    },
+    {
+      "category": "races",
+      "name": "Shifter",
+      "path": "races/shifter.png",
+      "crop": [
+        710,
+        795,
+        775,
+        1024
+      ]
+    },
+    {
+      "category": "classes",
+      "name": "Fighter",
+      "path": "classes/fighter.png",
+      "crop": [
+        780,
+        795,
+        838,
+        1024
+      ]
+    },
+    {
+      "category": "classes",
+      "name": "Barbarian",
+      "path": "classes/barbarian.png",
+      "crop": [
+        838,
+        795,
+        896,
+        1024
+      ]
+    },
+    {
+      "category": "classes",
+      "name": "Rogue",
+      "path": "classes/rogue.png",
+      "crop": [
+        896,
+        795,
+        954,
+        1024
+      ]
+    },
+    {
+      "category": "classes",
+      "name": "Ranger",
+      "path": "classes/ranger.png",
+      "crop": [
+        954,
+        795,
+        1013,
+        1024
+      ]
+    },
+    {
+      "category": "classes",
+      "name": "Paladin",
+      "path": "classes/paladin.png",
+      "crop": [
+        1013,
+        795,
+        1071,
+        1024
+      ]
+    },
+    {
+      "category": "classes",
+      "name": "Druid",
+      "path": "classes/druid.png",
+      "crop": [
+        1071,
+        795,
+        1129,
+        1024
+      ]
+    },
+    {
+      "category": "classes",
+      "name": "Cleric",
+      "path": "classes/cleric.png",
+      "crop": [
+        1129,
+        795,
+        1187,
+        1024
+      ]
+    },
+    {
+      "category": "classes",
+      "name": "Warlock",
+      "path": "classes/warlock.png",
+      "crop": [
+        1187,
+        795,
+        1245,
+        1024
+      ]
+    },
+    {
+      "category": "classes",
+      "name": "Wizard",
+      "path": "classes/wizard.png",
+      "crop": [
+        1245,
+        795,
+        1303,
+        1024
+      ]
+    },
+    {
+      "category": "classes",
+      "name": "Sorcerer",
+      "path": "classes/sorcerer.png",
+      "crop": [
+        1303,
+        795,
+        1362,
+        1024
+      ]
+    },
+    {
+      "category": "classes",
+      "name": "Bard",
+      "path": "classes/bard.png",
+      "crop": [
+        1362,
+        795,
+        1420,
+        1024
+      ]
+    },
+    {
+      "category": "classes",
+      "name": "Hearthwarden",
+      "path": "classes/hearthwarden.png",
+      "crop": [
+        1420,
+        795,
+        1478,
+        1024
+      ]
+    },
+    {
+      "category": "classes",
+      "name": "Runewright",
+      "path": "classes/runewright.png",
+      "crop": [
+        1478,
+        795,
+        1536,
+        1024
+      ]
+    }
+  ]
+}
