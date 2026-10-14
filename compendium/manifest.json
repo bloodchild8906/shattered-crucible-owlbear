@@ -1,0 +1,15 @@
+{
+  "name": "Crucible Compendium",
+  "version": "0.6.0",
+  "manifest_version": 1,
+  "description": "Independent Shattered Crucible Compendium toolkit",
+  "author": "bloodchild8906",
+  "homepage_url": "https://github.com/bloodchild8906/shattered-crucible-owlbear",
+  "action": {
+    "title": "Compendium",
+    "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/compendium/icon.svg",
+    "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/compendium/",
+    "width": 900,
+    "height": 760
+  }
+}

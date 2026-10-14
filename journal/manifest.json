@@ -1,0 +1,14 @@
+{
+  "name": "Crucible GM Journal",
+  "version": "0.6.0",
+  "manifest_version": 1,
+  "description": "Independent Shattered Crucible GM Journal",
+  "author": "bloodchild8906",
+  "action": {
+    "title": "GM Journal",
+    "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/journal/icon.svg",
+    "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/journal/",
+    "width": 900,
+    "height": 760
+  }
+}

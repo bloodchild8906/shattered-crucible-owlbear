@@ -1,0 +1,94 @@
+{
+  "version": "2026.10.14",
+  "collections": {
+    "maps": {
+      "folder": "Shattered Crucible / Maps",
+      "type": "MAP"
+    },
+    "creatures": {
+      "folder": "Shattered Crucible / Creatures",
+      "type": "CHARACTER"
+    },
+    "classes": {
+      "folder": "Shattered Crucible / Classes",
+      "type": "CHARACTER"
+    },
+    "races": {
+      "folder": "Shattered Crucible / Species",
+      "type": "CHARACTER"
+    },
+    "items": {
+      "folder": "Shattered Crucible / Items",
+      "type": "PROP"
+    }
+  },
+  "entries": [
+    {
+      "id": "ironhollow",
+      "name": "Ironhollow",
+      "type": "settlement",
+      "description": "Capital of the heavy-iron dwarven guilds."
+    },
+    {
+      "id": "emberreach",
+      "name": "Emberreach",
+      "type": "settlement",
+      "description": "Volcanic harbor and trade nexus."
+    },
+    {
+      "id": "stormwatch",
+      "name": "Stormwatch",
+      "type": "settlement",
+      "description": "Weather-beaten lighthouse city."
+    },
+    {
+      "id": "thornwild",
+      "name": "Thornwild",
+      "type": "settlement",
+      "description": "Woodland settlement under ancient boughs."
+    },
+    {
+      "id": "ashenspire",
+      "name": "Ashenspire",
+      "type": "settlement",
+      "description": "Gnomish research enclave."
+    },
+    {
+      "id": "duskmire",
+      "name": "Duskmire",
+      "type": "settlement",
+      "description": "Goblin experimental workshops."
+    },
+    {
+      "id": "gloomfen",
+      "name": "Gloomfen",
+      "type": "settlement",
+      "description": "Ruins and swamplands."
+    },
+    {
+      "id": "sunscar",
+      "name": "Sunscar",
+      "type": "settlement",
+      "description": "Desert caravan hub."
+    },
+    {
+      "id": "frostwarden",
+      "name": "Frostwarden",
+      "type": "settlement",
+      "description": "Northern defensive citadel."
+    },
+    {
+      "id": "moonfen",
+      "name": "Moonfen",
+      "type": "settlement",
+      "description": "Lanternlit marsh community."
+    },
+    {
+      "id": "shattered-isles",
+      "name": "Shattered Isles",
+      "type": "location",
+      "description": "Storm-tossed islands and pirates."
+    }
+  ],
+  "assets": []
+}

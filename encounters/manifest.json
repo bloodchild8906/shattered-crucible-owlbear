@@ -1,0 +1,14 @@
+{
+  "name": "Crucible Encounter Director",
+  "version": "0.6.0",
+  "manifest_version": 1,
+  "description": "Independent Shattered Crucible Encounter Director",
+  "author": "bloodchild8906",
+  "action": {
+    "title": "Encounter Director",
+    "icon": "https://bloodchild8906.github.io/shattered-crucible-owlbear/encounters/icon.svg",
+    "popover": "https://bloodchild8906.github.io/shattered-crucible-owlbear/encounters/",
+    "width": 900,
+    "height": 760
+  }
+}
