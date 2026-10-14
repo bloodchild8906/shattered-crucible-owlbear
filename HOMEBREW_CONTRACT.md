@@ -29,3 +29,34 @@ Errors are reported per pack so a broken community pack cannot prevent the rest 
 ```
 
 This version intentionally defines discovery, data and references, **not** executable D&D mechanics or automatic rule interpretation. Mechanical fields are descriptive/playtest metadata until individual extensions explicitly implement them.
+
+
+## Mandatory import/export contract for every extension
+
+**All seven extensions use the `sc.homebrew.entries` v1 envelope for manual JSON import and export.** Plain arrays and old unversioned backups are rejected. Conversion must be explicit; no silent fallbacks.
+
+```json
+{
+  "contract": "sc.homebrew.entries",
+  "schemaVersion": "1.0.0",
+  "packId": "shattered-crucible-user",
+  "category": "characters",
+  "entries": [
+    {"id": "vox", "name": "Vox", "type": "character", "level": 5}
+  ]
+}
+```
+
+| Extension | Required category |
+| --- | --- |
+| Compendium | `locations` |
+| Homebrew Studio | `homebrew` |
+| Character Sheets | `characters` |
+| Scene Shops | `shops` |
+| World Atlas | `atlas` |
+| GM Journal | `journal` |
+| Encounter Director | `encounters` |
+
+`content-contract.js` exports `validateExchange`, `exportExchange`, `importExchange` and `exportText`. Inputs require a unique kebab-case entry ID, name and type for every record; extension category mismatches are rejected. A successful manual import asks for confirmation before replacing that extension's locally stored records.
+
+The pack registry continues to import *read-only published homebrew definitions* from GitHub via `homebrew-contract.js`; user-edited records remain separate from published packs. Other developers should use these same schemas and stable `sc://pack/category/id` references. This contract does not imply cloud synchronization, permissions or automatic execution of mechanics.

@@ -25,19 +25,25 @@
     "category": {
       "type": "string",
       "enum": [
-        "items",
-        "classes",
-        "subclasses",
-        "species",
+        "atlas",
         "backgrounds",
+        "characters",
+        "classes",
+        "encounters",
         "feats",
-        "spells",
-        "monsters",
-        "materials",
-        "recipes",
-        "npcs",
         "guilds",
-        "locations"
+        "homebrew",
+        "items",
+        "journal",
+        "locations",
+        "materials",
+        "monsters",
+        "npcs",
+        "recipes",
+        "shops",
+        "species",
+        "spells",
+        "subclasses"
       ]
     },
     "entries": {
