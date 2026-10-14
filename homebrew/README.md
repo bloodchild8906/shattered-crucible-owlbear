@@ -20,3 +20,6 @@ New records use a wizard. Import/export of JSON and 5e.tools data are in Setting
 - User data: separate localStorage per module; imported audio uses IndexedDB.
 - Entries from unrelated extensions are independent until explicit cross-extension synchronization is implemented.
 - External input is rendered as escaped text; remote artwork and audio require HTTP(S) URLs.
+
+## Strict field normalization
+The five-step wizard normalizes prices to `{amount, currency}`, mechanics to an object, and comma-separated tags to a string array before saving. Export is validated against Contract v1.

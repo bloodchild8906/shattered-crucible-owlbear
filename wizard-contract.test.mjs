@@ -1,0 +1,13 @@
+globalThis.location={pathname:"/homebrew/",href:"https://example.com/homebrew/",protocol:"https:"};
+let db={};globalThis.localStorage={getItem:k=>db[k]||null,setItem:(k,v)=>db[k]=v};
+const root={innerHTML:"",querySelector(){return null},addEventListener(){}};
+globalThis.document={title:"",querySelector:s=>s==="#app"?root:null};
+console.warn=()=>{};console.info=()=>{};
+const {ctx}=await import("./suite-app.js");
+const {handleModule}=await import("./suite-views.js");
+const {exportText}=await import("./content-contract.js");
+ctx.view="create";ctx.draft={name:"Test Ember Wand",type:"Item",price:"50",mechanics:"once per turn add 1 fire",tags:"fire, craft",description:"For smoke test"};
+await handleModule(ctx,"wizard-save",{dataset:{}},{});
+const doc=JSON.parse(exportText("homebrew",ctx.records));const entry=doc.entries[0];
+if(entry.price?.amount!==50||entry.mechanics?.rules!=="once per turn add 1 fire"||entry.tags?.length!==2)throw Error("Wizard contract conversion failed "+JSON.stringify(entry));
+console.log("Homebrew wizard export round-trip PASS");
